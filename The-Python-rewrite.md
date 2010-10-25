@@ -1,11 +1,12 @@
 This page will contain a few words on the Python rewrite, the design goals, and
 I might even experiment with designing it "out in the open".
 
-h3. Design goals
+Design goals
+============
 
 git-flow is the result of a natural evolution, starting from an idea in the
-"nvie.com":http://nvie.com/git-model post
-"comment":http://nvie.com/posts/a-successful-git-branching-model/#comment-72478949.
+[nvie.com](http://nvie.com/git-model) post
+[comment](http://nvie.com/posts/a-successful-git-branching-model/#comment-72478949).
 The main pain points of git-flow currently are:
 
 * Testability: git-flow needs unit tests and the biggest mistake has been not
@@ -24,7 +25,8 @@ The main pain points of git-flow currently are:
   run.  Implementing git-flow in Python can change all this, since Python
   ships with "batteries included", requiring no external toolchain again.
 
-h3. Progress
+Progress
+========
 
 Progress on the Python rewrite can be tracked on the
-"python-rewrite":python-rewrite branch.
+[python-rewrite](http://github.com/nvie/gitflow/tree/feature/python-rewrite) branch.
