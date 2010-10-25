@@ -24,6 +24,8 @@ The main pain points of git-flow currently are:
   Cygwin to get Git and the basic Unix utility `getopt` to get git-flow to
   run.  Implementing git-flow in Python can change all this, since Python
   ships with "batteries included", requiring no external toolchain again.
+* Documentability: Python comes with great documentation tools in the form of
+  [Sphinx](http://sphinx.pocoo.org/)
 
 Progress
 ========
