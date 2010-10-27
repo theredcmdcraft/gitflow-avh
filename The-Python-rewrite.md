@@ -1,4 +1,5 @@
-This page will contain a few words on the Python rewrite, the design goals, and
+This page will contain a few words on the Python rewrite (see the 
+[feature/python-rewrite](http://github.com/nvie/gitflow/tree/feature/python-rewrite) branch), the design goals, and
 I might even experiment with designing it "out in the open".
 
 Design goals
@@ -26,12 +27,6 @@ The main pain points of git-flow currently are:
   ships with "batteries included", requiring no external toolchain again.
 * Documentability: Python comes with great documentation tools in the form of
   [Sphinx](http://sphinx.pocoo.org/)
-
-Progress
-========
-
-Progress on the Python rewrite can be tracked on the
-[python-rewrite](http://github.com/nvie/gitflow/tree/feature/python-rewrite) branch.
 
 
 Getting involved
