@@ -70,5 +70,5 @@ Hacking
       workon gitflow
   
 * Run the unit tests and coverage reports:
-      make
+      make cover
 
