@@ -32,3 +32,43 @@ Progress
 
 Progress on the Python rewrite can be tracked on the
 [python-rewrite](http://github.com/nvie/gitflow/tree/feature/python-rewrite) branch.
+
+
+Getting involved
+================
+
+The Python rewrite is just getting started (Oct '10) and I invite you to join
+the design discussion and invite you to bring on new functionality.  One of the
+core design goals is to have the project fully unit tested and ideally, to
+cover every line of source code by tests.
+
+If you like to get involved, I advice you to take the following steps.
+
+Testing setup
+-------------
+
+* Install virtualenvwrapper:
+      pip install virtualenvwrapper
+  
+* Make a gitflow virtual Python environment:
+      mkvirtualenv gitflow
+  
+* Install the required testing tools:
+      pip install GitPython nose nose-cover3 coverage
+  
+
+Hacking
+-------
+
+* Check out the Python sources:
+      git clone git://github.com/nvie/gitflow.git
+      cd gitflow
+      git checkout -b feature/python-rewrite origin/feature/python-rewrite
+  
+* If you want to switch to the (virtual) gitflow environment at any given time,
+  use:
+      workon gitflow
+  
+* Run the unit tests and coverage reports:
+      make
+
