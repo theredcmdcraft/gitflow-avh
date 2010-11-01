@@ -50,6 +50,8 @@ Testing setup
   
 * Install the required testing tools:
       pip install GitPython nose nose-cover3 coverage
+  And if you are using a pre-2.7 version of Python:
+      pip install unittest2
   
 
 Hacking
