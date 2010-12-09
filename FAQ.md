@@ -6,6 +6,8 @@
   want to manually merge a feature branch X into another feature branch Y?  Not
   a problem.  As long as you do it conciously and realize what this means for
   finishing those branches later on.
+
+  Just remember... you break it... you fix it
   
 * **Why does git-describe not work for me?**  
   When finishing release and hotfix branches, that branch's HEAD is first
