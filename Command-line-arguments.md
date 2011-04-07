@@ -1,3 +1,5 @@
+(version 0.4.1)
+
 ## Feature
 
 ### git flow feature [list] [-v]
@@ -102,3 +104,9 @@ Lists existing support branches
 
 Start new support branch named _\<version>_ based on _\<base>_
 
+## Configuration
+
+### Setting a different remote repo
+A remote repo different from _origin_ can be specified in the config file:
+
+`$ git config gitflow.origin myorigin`
