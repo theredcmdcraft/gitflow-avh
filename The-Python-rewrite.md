@@ -37,7 +37,7 @@ the design discussion and invite you to bring on new functionality.  One of the
 core design goals is to have the project fully unit tested and ideally, to
 cover every line of source code by tests.
 
-If you like to get involved, I advice you to take the following steps.
+If you like to get involved, I advise you to take the following steps.
 
 Testing setup
 -------------
