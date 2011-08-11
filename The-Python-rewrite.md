@@ -43,29 +43,39 @@ Testing setup
 -------------
 
 * Install virtualenvwrapper:
-      pip install virtualenvwrapper
+
+      `pip install virtualenvwrapper`
   
 * Make a gitflow virtual Python environment:
-      mkvirtualenv gitflow
+
+      `mkvirtualenv gitflow`
   
 * Install the required testing tools:
-      pip install GitPython nose nose-cover3 coverage
-  And if you are using a pre-2.7 version of Python:
-      pip install unittest2
+
+      `pip install GitPython nose nose-cover3 coverage`
+
+      And if you are using a pre-2.7 version of Python:
+
+      `pip install unittest2`
   
 
 Hacking
 -------
 
 * Check out the Python sources:
-      git clone git://github.com/nvie/gitflow.git
-      cd gitflow
-      git checkout -b feature/python-rewrite origin/feature/python-rewrite
+
+``` bash
+    git clone git://github.com/nvie/gitflow.git
+    cd gitflow
+    git checkout -b feature/python-rewrite origin/feature/python-rewrite
+```
   
 * If you want to switch to the (virtual) gitflow environment at any given time,
   use:
-      workon gitflow
+
+      `workon gitflow`
   
 * Run the unit tests and coverage reports:
-      make cover
+
+      `make cover`
 
