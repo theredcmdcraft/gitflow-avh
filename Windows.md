@@ -11,7 +11,7 @@ For Windows users who wish to use the automated install, it is suggested that yo
 first to install tools like `git`, `util-linux` and `wget` (with those three being packages that can be selected
 during installation). Then simply run this command from a Cygwin shell:
 
-	$ wget -q -O - https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash
+	$ wget -q -O - --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash
 
 If you get the error "flags: FATAL unable to determine getopt version" error after 
 
