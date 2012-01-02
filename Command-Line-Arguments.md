@@ -14,8 +14,11 @@ Start new feature _\<name>_, optionally basing it on _\<base>_ instead of _\<dev
 
 ### git flow feature finish [-rFk] \<name|nameprefix>
 **-F** fetch from $ORIGIN before performing finish
+
 **-r** rebase instead of merge
+
 **-k** keep branch after performing finish
+
 
 Finish feature _\<name>_
 
@@ -59,12 +62,19 @@ Start new release named _\<version>_
 
 ### git flow release finish [-Fsumpkn] \<version>
 **-F** fetch from $ORIGIN before performing finish
+
 **-s** sign the release tag cryptographically
+
 **-u** use the given GPG-key for the digital signature (implies -s)
+
 **-m** use the given tag message
+
 **-p** push to $ORIGIN after performing finish
+
 **-k** keep branch after performing finish
+
 **-n** don't tag this release
+
 
 Finish release _\<version>_
 
@@ -85,12 +95,19 @@ Lists existing hotfixes
 Start new hotfix named _\<version>_, optionally base it on _\<base>_ instead of _\<master>_
 ### git flow hotfix finish [-Fsumpkn] \<version>
 **-F** fetch from $ORIGIN before performing finish
+
 **-s** sign the release tag cryptographically
+
 **-u** use the given GPG-key for the digital signature (implies -s)
+
 **-m** use the given tag message
+
 **-p** push to $ORIGIN after performing finish
+
 **-k** keep branch after performing finish
+
 **-n** don't tag this release
+
 
 Finish hotfix _\<version>_
 
