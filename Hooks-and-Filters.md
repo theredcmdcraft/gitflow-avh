@@ -1,0 +1,31 @@
+## Introduction
+
+Starting with version 0.4.2-avh1 filters are introduced and in the near future hooks will also be introduced.
+Filters and Hooks are small scripts called during the git flow process.
+
+## Installation
+
+* Scripts need to be installed in the .git/hooks directory.
+* Scripts need to be executable.
+
+The use of filter and/or hooks is not mandated, when a script doesn't exists normal operations continue.
+
+## Filters
+
+### Version filters
+These filters allow you to change the version.
+You can use this for example to automatically update the version, make sure the version adheres to the projects standards.
+
+The filters are implemented in the following git flow commands
+
+**git flow release start**
+
+Script name: filter-flow-release-start-version
+
+
+**git flow hotfix start**
+
+Script name: filter-flow-hotfix-start-version
+
+## Examples
+In the hooks directory you can find bare-bone scripts of the filters.
