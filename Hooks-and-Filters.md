@@ -27,14 +27,15 @@ Script name: filter-flow-release-start-version
 
 Script name: filter-flow-hotfix-start-version
 
-### Hooks
+## Hooks
+### Hook scripts
 Naming convention for the hook scripts follows the Git hooks conventions:
 .git/hooks/{pre,post}-{subcmd}
 For example:
 .git/hooks/pre-flow-feature-start
 .git/hooks/post-flow-release-finish
 
-There are barebones scripts available in the doc/gitflow/hooks directory.
+There are documented bare-bone scripts available in the doc/gitflow/hooks directory.
 * {post,pre)-flow-feature-{finish,publish,pull,start,track}
 * {post,pre}-flow-hotfix-{finish,publish,start}
 * {post,pre}-flow-release-{finish,publish,start,track}
