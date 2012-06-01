@@ -34,3 +34,6 @@ run it with "Full Administrator" rights if you installed msysgit with its
 installer):
 
 	C:\gitflow> contrib\msysgit-install.cmd
+
+**Note**
+This will not copy the example hook files, only the needed executables.
