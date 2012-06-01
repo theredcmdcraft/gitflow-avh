@@ -1,5 +1,4 @@
-Installing on Linux, Unix, etc.
--------------------------------
+# Installing on Linux, Unix, etc.
 
 Under *nix, the easiest way to install git-flow is using Rick Osborne's
 excellent git-flow installer, which can be run using the following command:
