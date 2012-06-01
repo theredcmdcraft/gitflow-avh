@@ -1,14 +1,15 @@
 Installing git-flow
 -------------------
 
-Currently only the Manual installation is supported in the AVH version.
+Currently Supported installers:
 
 Choose your platform:
-
-* [[Mac OS X]]
 * [[Linux]] (and Unix, etc.)
-* [[Windows]]
+
 
 Or, install it manually:
-
 * [[Manual installation]]
+
+Unsupported
+* [[Mac OS X]]
+* [[Windows]]
