@@ -1,5 +1,15 @@
 (version 0.4.2-avh1)
 
+## Init
+
+### git flow init [-fd]
+**-f** Force setting of the gitflow branches, even if they were already configured.
+
+**-d** Use default branch naming conventions
+
+Setup a git repository for git flow usage. Can also be used to start a git repository.
+
+
 ## Feature
 
 ### git flow feature [list] [-v]
@@ -112,6 +122,10 @@ Start new hotfix named _\<version>_, optionally base it on _\<base>_ instead of 
 
 Finish hotfix _\<version>_
 
+
+### git flow hotfix publish \<name>
+Start sharing hotfix _\<name>_ on $ORIGIN
+
 ## Support
 ### git flow support [list] [-v]
 **-v** verbose (more) output
@@ -121,6 +135,11 @@ Lists existing support branches
 **-F** fetch from $ORIGIN before performing local operation
 
 Start new support branch named _\<version>_ based on _\<base>_
+
+## Version
+### git flow version
+
+Displays the git flow version.
 
 ## Configuration
 
