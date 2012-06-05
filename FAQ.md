@@ -17,25 +17,12 @@ It works with the AVH version of gitflow.
   that a linear path from the new `develop` branch to the new `master` commit
   is not created.  Even worse, a linear path is created from the new `develop`
   branch to the *previous* `master` commit.  Although unintended, this is
-  simply an effect of using the current branching rules.
+  simply an effect of using the current branching rules.</del>
   
-  When using `git-describe` in these cases, you can get very confusing and
+<del>  When using `git-describe` in these cases, you can get very confusing and
   misleading results, since `git-describe` scans the current commits linear
   history for the most recent tag it finds, which will always be the *previous*
-  tag.
-  
-  I will change this behaviour in the next version of the branching model
-  explicitly and I will include this behavioural change in the first version of
-  the Python rewrite.
-  
-  For more references to this problem, see:
-  
-  - Issue [#49](http://github.com/nvie/gitflow/issues/49)
-  - These
-  	[two](http://groups.google.com/group/gitflow-users/browse\_thread/thread/9920a7df3d1c4908/0bb18a0bf7275ad6#0bb18a0bf7275ad6)
-  	[discussions](http://groups.google.com/group/gitflow-users/browse\_thread/thread/19efac724bb6418a)
-	on the [git-flow-users](http://groups.google.com/group/gitflow-users)
-	mailinglist.</del>
+  tag.</del>
   
 * **Can I use it with Windows?**  
   There have been reports of Windows users using `git-flow`.
