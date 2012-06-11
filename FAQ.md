@@ -9,7 +9,8 @@
   
 * **Why does git-describe not work for me?**
 
-It works with the AVH version of gitflow.
+It works with the AVH version of gitflow.  
+Instead of merging the release branch back in to the develop branch, the tag, if given, is merged back in to the develop branch
 
 <del>  When finishing release and hotfix branches, that branch's HEAD is first
   merged into `master` and then into `develop`.  It is not the resulting new
