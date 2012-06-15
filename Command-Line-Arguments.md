@@ -1,4 +1,4 @@
-(version 1.0-avh)
+(version 1.0.1-avh)
 
 ## Init
 
@@ -71,7 +71,7 @@ Lists existing releases
 
 Start new release named _\<version>_
 
-### git flow release finish [-Fsumpkn] \<version>
+### git flow release finish [-Fsumpknb] \<version>
 **-F** fetch from $ORIGIN before performing finish
 
 **-s** sign the release tag cryptographically
@@ -86,6 +86,7 @@ Start new release named _\<version>_
 
 **-n** don't tag this release
 
+**-b** Don't back-merge the master branch or associated tag into the develop branch. Use the Release branch instead 
 
 Finish release _\<version>_
 
@@ -104,7 +105,7 @@ Lists existing hotfixes
 **-F** fetch from $ORIGIN before performing local operation
 
 Start new hotfix named _\<version>_, optionally base it on _\<base>_ instead of _\<master>_
-### git flow hotfix finish [-Fsumpkn] \<version>
+### git flow hotfix finish [-Fsumpknb] \<version>
 **-F** fetch from $ORIGIN before performing finish
 
 **-s** sign the release tag cryptographically
@@ -119,6 +120,7 @@ Start new hotfix named _\<version>_, optionally base it on _\<base>_ instead of 
 
 **-n** don't tag this release
 
+**-b** Don't back-merge the master branch or associated tag into the develop branch. Use the Hotfix branch instead
 
 Finish hotfix _\<version>_
 
