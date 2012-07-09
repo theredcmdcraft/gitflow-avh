@@ -22,7 +22,7 @@ Lists existing features
 
 Start new feature _\<name>_, optionally basing it on _\<base>_ instead of _\<develop>_
 
-### git flow feature finish [-rFkD] \<name|nameprefix>
+### git flow feature finish [-rFkDS] \<name|nameprefix>
 **-F** fetch from $ORIGIN before performing finish
 
 **-r** rebase instead of merge
@@ -30,6 +30,8 @@ Start new feature _\<name>_, optionally basing it on _\<base>_ instead of _\<dev
 **-k** keep branch after performing finish
 
 **-D** force deleting of the feature branch after finish
+
+**-S** squash commits into one large one
 
 Finish feature _\<name>_
 
@@ -71,7 +73,7 @@ Lists existing releases
 
 Start new release named _\<version>_
 
-### git flow release finish [-Fsumpknb] \<version>
+### git flow release finish [-FsumpknbS] \<version>
 **-F** fetch from $ORIGIN before performing finish
 
 **-s** sign the release tag cryptographically
@@ -87,6 +89,8 @@ Start new release named _\<version>_
 **-n** don't tag this release
 
 **-b** Don't back-merge the master branch or associated tag into the develop branch. Use the Release branch instead 
+
+**-S** squash commits into one large one
 
 Finish release _\<version>_
 
