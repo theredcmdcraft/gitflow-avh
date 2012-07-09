@@ -1,65 +1,145 @@
-(version 1.0.1-avh)
+(version 1.0.65-avh)
 
-## Init
+### git flow init - Initialize the repository for git flow usage.
 
-### git flow init [-fd]
-**-f** Force setting of the gitflow branches, even if they were already configured.
-
-**-d** Use default branch naming conventions
-
+#### Description
 Setup a git repository for git flow usage. Can also be used to start a git repository.
 
+#### Synopsis
+git flow init [-h] [-d] [-f]
 
-## Feature
+#### Options
+-h,--[no]help
+show this help (default: false)                
+-d,--[no]defaults
+use default branch naming conventions (default: false)    
+-f,--[no]force
+force setting of gitflow branches, even if already configured (default: false)
 
-### git flow feature [list] [-v]
-**-v** verbose (more) output
+## git flow feature
 
-Lists existing features
+### git flow feature [list] [-v] - Lists existing feature branches
 
-### git flow feature start [-F] \<name> [\<base>]
-**-F** fetch from $ORIGIN before performing local operation
+#### Description
+Lists all the existing feature branches in the local repository.
 
+#### Synopsis
+git flow feature [list] [-h] [-v]
+
+#### Options
+-h,--[no]help
+show this help (default: false)                     
+-v,--[no]verbose
+verbose (more) output (default: false)
+
+
+### git flow feature start - Start a new feature branch
+
+#### Description
 Start new feature _\<name>_, optionally basing it on _\<base>_ instead of _\<develop>_
 
-### git flow feature finish [-rFkDS] \<name|nameprefix>
-**-F** fetch from $ORIGIN before performing finish
+#### Synopsis
+git flow feature start [-h] [-F] \<name> [\<base>]
 
-**-r** rebase instead of merge
+#### Options
+-h,--[no]help
+show this help (default: false)    
+-F,--[no]fetch
+fetch from origin before performing local operation (default: false)    
 
-**-k** keep branch after performing finish
+### git flow feature finish - Finish a existing feature
 
-**-D** force deleting of the feature branch after finish
-
-**-S** squash commits into one large one
-
+#### Description
 Finish feature _\<name>_
 
-### git flow feature publish \<name>
+#### Synopsis
+git flow feature finish [-h] [-F] [-r] [-k] [-D] [-S] \<name|nameprefix>
 
-Start sharing feature _\<name>_ on $ORIGIN
+#### Options
+-h,--[no]help
+show this help (default: false)    
+-F,--[no]fetch
+fetch from origin before performing finish (default: false)    
+-r,--[no]rebase
+rebase instead of merge (default: false)    
+-k,--[no]keep
+keep branch after performing finish (default: false)    
+-D,--[no]force_delete
+force delete feature branch after finish (default: false)    
+-S,--[no]squash
+squash feature during merge (default: false)    
 
-### git flow feature track \<name>
+### git flow feature publish - Publish feature branch
 
+#### Description
+Publish feature branch _\<name>_ on $ORIGIN
+
+#### Synopsis
+git flow feature publish [-h] \<name>
+
+#### Options
+-h,--[no]help
+show this help (default: false)    
+
+### git flow feature track - Track a feature branch
+
+#### Description
 Start tracking feature _\<name>_ that is shared on $ORIGIN
 
-### git flow feature diff [\<name|nameprefix>]
+#### Synopsis
+git flow feature track [-h] \<name>
 
+#### Options
+-h,--[no]help
+
+### git flow feature diff - Show all changes of the feature branch
+
+#### Description
 Show all changes in _\<name>_ that are not in _\<develop>_
 
-### git flow feature rebase [-i] [\<name|nameprefix>]
+#### Synopsis
+git flow feature diff [-h] [\<name|nameprefix>]
 
-**-i** do an interactive rebase
+#### Options
+-h,--[no]help
 
+### git flow feature rebase - Perform a rebase
+
+#### Description
 Rebase _\<name>_ on _\<develop>_
 
-### git flow feature checkout [\<name|nameprefix>]
+#### Synopsis
+git flow feature rebase [-h] [-i] [\<name|nameprefix>]
 
+#### Options
+-h,--[no]help
+show this help (default: false)    
+-i,--[no]interactive
+do an interactive rebase (default: false)    
+
+### git flow feature checkout - Checkout the feature branch
+
+#### Description
 Switch to feature branch _\<name>_
 
-### git flow feature pull \<remote> [\<name>]
+#### Synopsis
+git flow feature checkout [-h] [\<name|nameprefix>]
 
+#### Options
+-h,--[no]help
+show this help (default: false)    
+
+### git flow feature pull - Pull feature branch
+
+#### Description
 Pull feature _\<name>_ from _\<remote>_
+
+#### Synopsis
+git flow feature pull [-h] \<remote> [\<name>]
+
+#### Options
+-h,--[no]help
+show this help (default: false)    
 
 ## Release
 
@@ -81,6 +161,7 @@ Start new release named _\<version>_
 **-u** use the given GPG-key for the digital signature (implies -s)
 
 **-m** use the given tag message
+**-f**
 
 **-p** push to $ORIGIN after performing finish
 
