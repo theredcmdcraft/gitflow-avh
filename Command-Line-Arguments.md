@@ -32,6 +32,7 @@ show this help (default: false)
 -v,--[no]verbose
 verbose (more) output (default: false)
 
+---
 
 ### git flow feature start - Start a new feature branch
 
@@ -46,6 +47,8 @@ git flow feature start [-h] [-F] \<name> [\<base>]
 show this help (default: false)    
 -F,--[no]fetch
 fetch from origin before performing local operation (default: false)    
+
+---
 
 ### git flow feature finish - Finish a existing feature
 
@@ -69,6 +72,8 @@ force delete feature branch after finish (default: false)
 -S,--[no]squash
 squash feature during merge (default: false)    
 
+---
+
 ### git flow feature publish - Publish feature branch
 
 #### Description
@@ -81,6 +86,8 @@ git flow feature publish [-h] \<name>
 -h,--[no]help
 show this help (default: false)    
 
+---
+
 ### git flow feature track - Track a feature branch
 
 #### Description
@@ -92,6 +99,8 @@ git flow feature track [-h] \<name>
 #### Options
 -h,--[no]help
 
+---
+
 ### git flow feature diff - Show all changes of the feature branch
 
 #### Description
@@ -102,6 +111,8 @@ git flow feature diff [-h] [\<name|nameprefix>]
 
 #### Options
 -h,--[no]help
+
+---
 
 ### git flow feature rebase - Perform a rebase
 
@@ -117,6 +128,8 @@ show this help (default: false)
 -i,--[no]interactive
 do an interactive rebase (default: false)    
 
+---
+
 ### git flow feature checkout - Checkout the feature branch
 
 #### Description
@@ -128,6 +141,8 @@ git flow feature checkout [-h] [\<name|nameprefix>]
 #### Options
 -h,--[no]help
 show this help (default: false)    
+
+---
 
 ### git flow feature pull - Pull feature branch
 
