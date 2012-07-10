@@ -36,6 +36,6 @@ For example:
 .git/hooks/post-flow-release-finish
 
 There are documented bare-bone scripts available in the doc/gitflow/hooks directory.
-* {post,pre)-flow-feature-{finish,publish,pull,start,track}
-* {post,pre}-flow-hotfix-{finish,publish,start}
-* {post,pre}-flow-release-{finish,publish,start,track}
+* {post,pre)-flow-feature-{finish,publish,pull,start,track,delete}
+* {post,pre}-flow-hotfix-{finish,publish,start,delete}
+* {post,pre}-flow-release-{finish,publish,start,track,delete}

@@ -168,92 +168,317 @@ git flow feature pull [-h] \<remote> [\<name>]
 -h,--[no]help  
 show this help (default: false)
 
+---
+
+### git flow feature delete - Delete a feature branch
+
+#### Description
+Deletes a given feature branch
+
+#### Synopsis
+git flow feature delete [-h] [-f] [-r] _\<name>_
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-f,--[no]force  
+force deletion (default: false)
+
+-r,--[no]remote  
+delete remote branch (default: false)
+
+---
+
 ## Release
 
-### git flow release [list] [-v]
-**-v** verbose (more) output
+### git flow release - List existing release branches
 
-Lists existing releases
+#### Description
+List existing release branches
 
-### git flow release start [-F] \<version>
-**-F** fetch from $ORIGIN before performing local operation
+#### Synopsis
+git flow release [list] [-h] [-v]
 
-Start new release named _\<version>_
+#### Options
+-h,--[no]help  
+show this help (default: false)
 
-### git flow release finish [-FsumpknbS] \<version>
-**-F** fetch from $ORIGIN before performing finish
+-v,--[no]verbose  
+verbose (more) output (default: false)
 
-**-s** sign the release tag cryptographically
+---
 
-**-u** use the given GPG-key for the digital signature (implies -s)
+### git flow release start - Start a new release branch
 
-**-m** use the given tag message
-**-f**
+#### Description
+Start a new release branch
 
-**-p** push to $ORIGIN after performing finish
+#### Synopsis
+git flow release start [-h] [-F] \<version>
 
-**-k** keep branch after performing finish
+#### Options
+-h,--[no]help  
+show this help (default: false)
 
-**-n** don't tag this release
+-F,--[no]fetch  
+fetch from origin before performing finish (default: false)
 
-**-b** Don't back-merge the master branch or associated tag into the develop branch. Use the Release branch instead 
+---
 
-**-S** squash commits into one large one
+### git flow release finish - Finish a release branch
 
-Finish release _\<version>_
+#### Description
+Finish a release branch
 
-### git flow release publish \<name>
-Start sharing release _\<name>_ on $ORIGIN
+#### Synopsis
+git flow release finish [-h] [-F] [-s] [-u] [-m | -f] [-p] [-k] [-n] [-b] [-S] \<version>
 
-### git flow release track \<name>
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-F,--[no]fetch  
+fetch from origin before performing finish (default: false)
+
+-s,--[no]sign  
+sign the release tag cryptographically (default: false)
+
+-u,--signingkey  
+use the given GPG-key for the digital signature (implies -s) (default: '')
+
+-m,--message  
+use the given tag message (default: '')
+
+-f,--messagefile  
+use the contents of the given file as a tag message (default: '')
+
+-p,--[no]push  
+push to origin after performing finish (default: false)
+
+-k,--[no]keep  
+keep branch after performing finish (default: false)
+
+-n,--[no]notag  
+don't tag this release (default: false)
+
+-b,--[no]nobackmerge  
+don't back-merge master, or tag if applicable, in develop  (default: false)
+
+-S,--[no]squash  
+squash release during merge (default: false)
+
+---
+
+### git flow release publish - Publish a release branch
+
+#### Description 
+Publish the release branch _\<name>_ on $ORIGIN
+
+#### Synopsis
+git flow release publish [-h] \<name>
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+---
+
+### git flow release track - Track a release branch
+
+#### Description
 Start tracking release _\<name>_ that is shared on $ORIGIN
 
+#### Synopsis
+git flow release track [-h] \<name>
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+---
+
+### git flow release delete - Delete a release branch
+
+#### Description
+Deletes a given release branch
+
+#### Synopsis
+git flow release delete [-h] [-f] [-r] _\<name>_
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-f,--[no]force  
+force deletion (default: false)
+
+-r,--[no]remote  
+delete remote branch (default: false)
+
+---
+
 ## Hotfix
-### git flow hotfix [list] [-v]
-**-v** verbose (more) output
 
-Lists existing hotfixes
-### git flow hotfix start [-F] \<version> [\<base>]
-**-F** fetch from $ORIGIN before performing local operation
+### git flow hotfix - Lists all hotfix branches
 
-Start new hotfix named _\<version>_, optionally base it on _\<base>_ instead of _\<master>_
-### git flow hotfix finish [-Fsumpknb] \<version>
-**-F** fetch from $ORIGIN before performing finish
+#### Description
+Lists all local hotfix branches
 
-**-s** sign the release tag cryptographically
+#### Synopsis
+git flow hotfix [list] [-h] [-v]
 
-**-u** use the given GPG-key for the digital signature (implies -s)
+#### Options
+-h,--[no]help  
+show this help (default: false)
 
-**-m** use the given tag message
+-v,--[no]verbose  
+verbose (more) output (default: false)
 
-**-p** push to $ORIGIN after performing finish
+---
 
-**-k** keep branch after performing finish
+### git flow hotfix start - Start a hotfix branch
 
-**-n** don't tag this release
+#### Description
+Start new hotfix branch named _\<version>_, optionally base it on _\<base>_ instead of the _\<master>_ branch
 
-**-b** Don't back-merge the master branch or associated tag into the develop branch. Use the Hotfix branch instead
+#### Synopsis
+git flow hotfix start [-h] [-F] \<version> [\<base>]
 
-Finish hotfix _\<version>_
+#### Options
+-h,--[no]help  
+show this help (default: false)
 
+-F,--[no]fetch  
+fetch from origin before performing finish (default: false)
 
-### git flow hotfix publish \<name>
+---
+
+### git flow hotfix finish - Finish a hotfix branch
+
+#### Description
+Finish hotfix branch _\<version>_
+
+#### Synopsis 
+git flow hotfix finish [-h] [-F] [-s] [-u] [-m | -f ] [-p] [-k] [-n] [-b] _\<version>_
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-F,--[no]fetch  
+fetch from origin before performing finish (default: false)
+
+-s,--[no]sign  
+sign the release tag cryptographically (default: false)
+
+-u,--signingkey  
+use the given GPG-key for the digital signature (implies -s) (default: '')
+
+-m,--message  
+use the given tag message (default: '')
+
+-f,--messagefile  
+use the contents of the given file as tag message (default: '')
+
+-p,--[no]push  
+push to origin after performing finish (default: false)
+
+-k,--[no]keep  
+keep branch after performing finish (default: false)
+
+-n,--[no]notag  
+don't tag this release (default: false)
+
+-b,--[no]nobackmerge
+  don't back-merge master, or tag if applicable, in develop  (default: false)
+
+---
+  
+### git flow hotfix publish - Publish the hotfix branch
+
+#### Description
 Start sharing hotfix _\<name>_ on $ORIGIN
 
+#### Synopsis
+git flow hotfix publish [-h] \<name>
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+---
+
+### git flow hotfix delete - Delete a hotfix branch
+
+#### Description
+Deletes a given hotfix branch
+
+#### Synopsis
+git flow hotfix delete [-h] [-f] [-r] _\<name>_
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-f,--[no]force  
+force deletion (default: false)
+
+-r,--[no]remote  
+delete remote branch (default: false)
+
+---
+
 ## Support
-### git flow support [list] [-v]
-**-v** verbose (more) output
 
-Lists existing support branches
-### git flow support start [-F] \<version> \<base>
-**-F** fetch from $ORIGIN before performing local operation
+### git flow support - List all support branches
 
-Start new support branch named _\<version>_ based on _\<base>_
+#### Description
+List all local support branches
+
+#### Synopsis
+git flow support [list] [-h] [-v]
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-v,--[no]verbose  
+verbose (more) output (default: false)
+
+---
+
+### git flow support start - Start a support branch
+
+#### Description
+Start a new support branch name _\<version_ based on _\<base>_
+
+#### Synopsis
+git flow support start [-h] [-F] \<version> \<base>
+
+#### Options
+-h,--[no]help  
+show this help (default: false)
+
+-F,--[no]fetch  
+fetch from origin before performing finish (default: false)
+
+---
 
 ## Version
+
 ### git flow version
 
-Displays the git flow version.
+#### Description
+Display the git flow version.
+
+#### Synopsis
+git flow version
+
+#### Options
+_None_
+
+---
 
 ## Configuration
 
