@@ -232,7 +232,7 @@ fetch from origin before performing finish (default: false)
 Finish a release branch
 
 #### Synopsis
-git flow release finish [-h] [-F] [-s] [-u] [-m | -f] [-p] [-k] [-n] [-b] [-S] \<version>
+git flow release finish [-h] [-F] [-s] [-u] [-m | -f] [-p] [-k] [-n] [-b] [-S] [-i] \<version>
 
 #### Options
 -h,--[no]help  
@@ -263,10 +263,13 @@ keep branch after performing finish (default: false)
 don't tag this release (default: false)
 
 -b,--[no]nobackmerge  
-don't back-merge master, or tag if applicable, in develop  (default: false)
+don't back-merge master, or tag if applicable, in develop (default: false)
 
 -S,--[no]squash  
 squash release during merge (default: false)
+
+-i,--[no]inplace
+  Release directly on the development branch (default: false)
 
 ---
 
