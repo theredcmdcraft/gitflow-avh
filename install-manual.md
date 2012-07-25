@@ -1,9 +1,8 @@
-Installing git-flow manually
-----------------------------
+# Installing git-flow manually
 
 If you prefer a manual installation, please use the following instructions:
 
-	$ git clone --recursive git://github.com/nvie/gitflow.git
+	$ git clone git://github.com/petervanderdoes/gitflow.git
 
 Then, you can install `git-flow`, using:
 

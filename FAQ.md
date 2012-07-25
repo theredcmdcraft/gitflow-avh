@@ -1,3 +1,12 @@
+* **Why a seperate edition of git-flow?**
+  As we were in need of the implementation of hooks and filters in git-flow, 
+  we wrote a patch for the original git-flow. After 5 months the patch still 
+  wasn't implemented and we decided to focus our work on creating 
+  the AVH Edition.  
+  Because of the rewrite we did it seems very likely that the patches for new 
+  features and bugfixes we create for the AVH Edition, are not compatible with 
+  the original git-flow.
+  
 * **Can I still do manual branches and merges when I use git-flow?**  
   Of course you can. `git-flow` does not forbid you to keep using vanilla Git commands!
   
@@ -27,7 +36,5 @@ Instead of merging the release branch back in to the develop branch, the tag, if
   
 * **Can I use it with Windows?**  
   There have been reports of Windows users using `git-flow`.
-  <del>Un</del>fortunately, I have no Windows environment to test it on, but
-  this [issue](http://github.com/nvie/gitflow/issues/issue/25) should be
-  helpful in setting it up.
+  <del>Un</del>fortunately, I have no Windows environment to test it on.
   

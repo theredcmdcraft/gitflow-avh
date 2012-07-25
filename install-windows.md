@@ -1,5 +1,6 @@
 # Installing on Windows
 
+The below instructions are unsupported. The installation files need to be updated.
 
 For Windows users, [msysgit](http://code.google.com/p/msysgit/) is a good
 starting place for installing git.

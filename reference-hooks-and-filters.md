@@ -1,3 +1,5 @@
+# Reference - Hooks and Filters
+
 ## Introduction
 
 Starting with version 0.4.2-avh1 filters are introduced and in the near future hooks will also be introduced.
