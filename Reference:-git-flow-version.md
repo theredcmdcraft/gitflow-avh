@@ -1,4 +1,4 @@
-# Reference - git flow version
+# Reference: git flow version
 
 ### git flow version
 
