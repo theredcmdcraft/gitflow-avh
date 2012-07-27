@@ -13,8 +13,8 @@ the internal commands have been rewritten to speed up the software.
 
 ## Reference
 * [git flow init](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-init)
-* [git flow feature]([https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-feature)
-* [git flow release]([https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-release)
+* [git flow feature](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-feature)
+* [git flow release](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-release)
 * [git flow hotfix](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-hotfix)
 * [git flow support](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-support)
 * [git flow version](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-version)
