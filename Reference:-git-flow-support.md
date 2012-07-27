@@ -1,4 +1,4 @@
-# Reference -  git flow support
+# Reference: git flow support
 
 ### git flow support - List all support branches
 
