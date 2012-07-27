@@ -1,4 +1,4 @@
-# Reference - git flow hotfix
+# Reference: git flow hotfix
 
 ### git flow hotfix - Lists all hotfix branches
 
