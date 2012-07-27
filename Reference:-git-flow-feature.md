@@ -1,4 +1,4 @@
-# Reference - git flow feature
+# Reference: git flow feature
 
 ### git flow feature [list] [-v] - Lists existing feature branches
 
