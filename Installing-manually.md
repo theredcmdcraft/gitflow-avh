@@ -1,4 +1,4 @@
-# Installing git-flow manually
+# Installing manually
 
 If you prefer a manual installation, please use the following instructions:
 
