@@ -1,4 +1,4 @@
-# Reference - git flow init
+# Reference: git flow init
 
 ### git flow init - Initialize the repository for git flow usage.
 
