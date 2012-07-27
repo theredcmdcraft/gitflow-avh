@@ -1,4 +1,4 @@
-# Reference - Hooks and Filters
+# Reference: Hooks and Filters
 
 ## Introduction
 
