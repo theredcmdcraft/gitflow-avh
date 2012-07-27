@@ -6,20 +6,20 @@ the internal commands have been rewritten to speed up the software.
 
 ## Installing git-flow
 
-* [Linux](https://github.com/petervanderdoes/gitflow/wiki/install-linux) (and Unix, etc.)
-* [Manual installation]([https://github.com/petervanderdoes/gitflow/wiki/install-manual)
-* [Mac OS X](https://github.com/petervanderdoes/gitflow/wiki/install-mac)
-* [Windows](https://github.com/petervanderdoes/gitflow/wiki/install-windows)
+* [Linux](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Linux,-Unix,-etc.) (and Unix, etc.)
+* [Manual installation]([https://github.com/petervanderdoes/gitflow/wiki/Installing-manually)
+* [Mac OS X](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Mac-OS-X)
+* [Windows](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Windows)
 
 ## Reference
-* [git flow init](https://github.com/petervanderdoes/gitflow/wiki/reference-init)
-* [git flow feature]([https://github.com/petervanderdoes/gitflow/wiki/reference-feature)
-* [git flow release]([https://github.com/petervanderdoes/gitflow/wiki/reference-release)
-* [git flow hotfix](https://github.com/petervanderdoes/gitflow/wiki/reference-hotfix)
-* [git flow support](https://github.com/petervanderdoes/gitflow/wiki/reference-support)
-* [git flow version](https://github.com/petervanderdoes/gitflow/wiki/reference-version)
-* [Confguration](https://github.com/petervanderdoes/gitflow/wiki/reference-configuration)
-* [Hooks and Filters](https://github.com/petervanderdoes/gitflow/wiki/reference-hooks-and-filters)
+* [git flow init](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-init)
+* [git flow feature]([https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-feature)
+* [git flow release]([https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-release)
+* [git flow hotfix](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-hotfix)
+* [git flow support](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-support)
+* [git flow version](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-version)
+* [Confguration](https://github.com/petervanderdoes/gitflow/wiki/Reference:-Configuration)
+* [Hooks and Filters](https://github.com/petervanderdoes/gitflow/wiki/Reference:-Hooks-and-Filters)
 
 ## Frequently Asked Questions
 Visit the [FAQ Page](https://github.com/petervanderdoes/gitflow/wiki/FAQ).
@@ -40,5 +40,5 @@ some existing code, it's best to discuss this before coding.
 ### Guidelines
 We have set up some simple guidelines and policies to keep things simple and 
 streamlined.
-* [Reporting issues/new features](https://github.com/petervanderdoes/gitflow/wiki/contrib-reporting)
-* [Coding guidelines](https://github.com/petervanderdoes/gitflow/wiki/contrib-coding)
+* [Reporting issues/new features](https://github.com/petervanderdoes/gitflow/wiki/Reporting-issues-new-features)
+* [Coding guidelines](https://github.com/petervanderdoes/gitflow/wiki/Coding-guidelines)
