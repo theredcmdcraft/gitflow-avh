@@ -29,6 +29,9 @@ git flow release start [-h] [-F] \<version>
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 -F,--[no]fetch
 fetch from origin before performing finish
 
@@ -45,6 +48,9 @@ git flow release finish [-h] [-F] [-s] [-u] [-m | -f] [-p] [-k] [-n] [-b] [-S] \
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -F,--[no]fetch
 fetch from origin before performing finish
@@ -97,6 +103,9 @@ git flow release branch [-h] [-F] [-s] [-u] [-m] [-f] [-p] [-n] [-S] \<version> 
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 -F,--[no]fetch
 fetch from origin before performing finish
 
@@ -135,6 +144,9 @@ git flow release publish [-h] \<name>
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow release track - Track a release branch
@@ -149,6 +161,9 @@ git flow release track [-h] \<name>
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow release delete - Delete a release branch
@@ -162,6 +177,9 @@ git flow release delete [-h] [-f] [-r] _\<name>_
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -f,--[no]force
 force deletion

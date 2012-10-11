@@ -12,6 +12,9 @@ git flow init [-h] [-d] [-f]
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 -d,--[no]defaults
 use default branch naming conventions
 

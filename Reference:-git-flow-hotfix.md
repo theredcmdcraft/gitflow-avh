@@ -29,6 +29,9 @@ git flow hotfix start [-h] [-F] \<version> [\<base>]
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 -F,--[no]fetch
 fetch from origin before performing finish
 
@@ -45,6 +48,9 @@ git flow hotfix finish [-h] [-F] [-s] [-u] [-m | -f ] [-p] [-k] [-n] [-b] _\<ver
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -F,--[no]fetch
 fetch from origin before performing finish
@@ -93,6 +99,9 @@ git flow hotfix publish [-h] \<name>
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow hotfix delete - Delete a hotfix branch
@@ -106,6 +115,9 @@ git flow hotfix delete [-h] [-f] [-r] _\<name>_
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -f,--[no]force
 force deletion

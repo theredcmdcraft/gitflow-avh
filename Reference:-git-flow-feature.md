@@ -29,6 +29,9 @@ git flow feature start [-h] [-F] \<name> [\<base>]
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 -F,--[no]fetch
 fetch from origin before performing local operation
 
@@ -45,6 +48,9 @@ git flow feature finish [-h] [-F] [-r] [-k] [-D] [-S] \<name|nameprefix>
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -F,--[no]fetch
 fetch from origin before performing finish
@@ -81,6 +87,9 @@ git flow feature publish [-h] \<name>
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow feature track - Track a feature branch
@@ -94,6 +103,9 @@ git flow feature track [-h] \<name>
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 ---
 
@@ -109,6 +121,9 @@ git flow feature diff [-h] [\<name|nameprefix>]
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow feature rebase - Perform a rebase
@@ -122,6 +137,9 @@ git flow feature rebase [-h] [-i] [\<name|nameprefix>]
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -i,--[no]interactive
 do an interactive rebase
@@ -140,6 +158,9 @@ git flow feature checkout [-h] [\<name|nameprefix>]
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow feature pull - Pull feature branch
@@ -154,6 +175,9 @@ git flow feature pull [-h] \<remote> [\<name>]
 -h,--[no]help
 show this help
 
+--showcommands
+Show git commands while executing them
+
 ---
 
 ### git flow feature delete - Delete a feature branch
@@ -167,6 +191,9 @@ git flow feature delete [-h] [-f] [-r] _\<name>_
 #### Options
 -h,--[no]help
 show this help
+
+--showcommands
+Show git commands while executing them
 
 -f,--[no]force
 force deletion
