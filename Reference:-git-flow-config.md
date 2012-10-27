@@ -23,7 +23,7 @@ Show git commands while executing them
 Update the git-flow configuration.
 
 #### Synopsis
-git flow config set [options] <config-option> <config-value> 
+git flow config set [options] \<config-option\> \<config-value\> 
 
 #### Options
 -h,--[no]help
