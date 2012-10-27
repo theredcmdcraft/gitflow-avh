@@ -18,6 +18,7 @@ the internal commands have been rewritten to speed up the software.
 * [git flow hotfix](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-hotfix)
 * [git flow support](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-support)
 * [git flow version](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-version)
+* [git flow config](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-config)
 * [Confguration](https://github.com/petervanderdoes/gitflow/wiki/Reference:-Configuration)
 * [Hooks and Filters](https://github.com/petervanderdoes/gitflow/wiki/Reference:-Hooks-and-Filters)
 
