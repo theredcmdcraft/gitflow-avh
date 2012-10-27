@@ -32,18 +32,18 @@ show this help
 --showcommands
 Show git commands while executing them
 
-Use config file location
---local      use repository config file - Default
---global     use global config file
---system     use system config file
---file ...   use given config file
+Use config file location    
+--local      use repository config file - Default    
+--global     use global config file    
+--system     use system config file    
+--file ...   use given config file    
 
-Config Options
-The following are the options you can set
-master				- Branch name for production releases
-develop				- Branch name for "next release" development
-feature				- Feature branch prefix
-hotfix				- Hotfix branch prefix
-release				- Release branch prefix
-support				- Support branch prefix
-versiontagprefix	- Version tag prefix
+Config Options    
+The following are the options you can set    
+master				- Branch name for production releases    
+develop				- Branch name for "next release" development    
+feature				- Feature branch prefix    
+hotfix				- Hotfix branch prefix    
+release				- Release branch prefix    
+support				- Support branch prefix    
+versiontagprefix	- Version tag prefix    

@@ -1,6 +1,6 @@
 # What is git-flow AVH Edition
 git-flow AVH Edition is a collection of Git extensions to provide high-level 
-repository operations for Vincent Driessen's [branching model]http://nvie.com/posts/a-successful-git-branching-model/).  
+repository operations for Vincent Driessen's [branching model](http://nvie.com/posts/a-successful-git-branching-model/).  
 The AVH Edition adds more functionality to the existing git-flow and several of 
 the internal commands have been rewritten to speed up the software. 
 
