@@ -17,7 +17,12 @@ code already uses (even if it doesn't match the overall style of existing code).
 
 * Case arms are indented at the same depth as case and esac lines.
 
-* Variables used inside a function only should be declared local.
+* Variables used inside a function only should be declared local at the 
+  beginning of the function.
+
+* Local variables should be in lower case only.
+
+* Local variables should not be assigned a value during declaration.
 
 * Redirection operators should be written with space before, but no space
   after them.
@@ -78,3 +83,4 @@ and Z is the patch version.
 
 For pre-release versions we append -dev.W where W is a non-negative integer.
 
+For release candidates we append -rc.W where W is a non-negative integer.
