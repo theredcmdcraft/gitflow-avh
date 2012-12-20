@@ -2,7 +2,7 @@
 
 ## Homebrew
 
-Currently not supported as I don't have a MAC and can't create the brew formula.
+In the works
 
 ## wget
 
@@ -26,3 +26,10 @@ wget: command not found?  curl is only two.  (Note that URL is where the above U
 
 ### Development release
     sudo bash gitflow-installer.sh install develop
+    
+## Post installation setup
+Install GNU getopt via Homebrew:    
+
+    brew install gnu-getopt.
+
+Create a `~/.gitflow_export` with the content `alias getopt="$(brew --prefix gnu-getopt)/bin/getopt"`.
