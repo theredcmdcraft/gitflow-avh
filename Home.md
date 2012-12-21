@@ -7,7 +7,7 @@ the internal commands have been rewritten to speed up the software.
 ## Installing git-flow
 
 * [Linux](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Linux,-Unix,-etc.) (and Unix, etc.)
-* [BSD](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-BSD-systems.)
+* [BSD](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-BSD-systems)
 * [Mac OS X](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Mac-OS-X)
 * [Manual installation](https://github.com/petervanderdoes/gitflow/wiki/Installing-manually)
 * [Windows](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Windows)
