@@ -4,7 +4,7 @@ If you prefer a manual installation, please use the following instructions:
 
 	$ git clone git://github.com/petervanderdoes/gitflow.git
 
-Then, you can install `git-flow`, using:
+Then, you can install git-flow, using:
 
 	$ sudo make install
 
@@ -13,10 +13,9 @@ where git-flow will be installed, simply specify it explicitly, using:
 
 	$ sudo make prefix=/opt/local install
 
-Or simply point your `PATH` environment variable to your git-flow checkout
-directory.
+This will install git-flow in /opt/local/bin
 
-*Installation note:*  
+## Post installation setup
 git-flow depends on the availability of the command line utility `getopt`,
 which may not be available in your Unix/Linux environment.  Please use your
 favorite package manager to install `getopt`.  For Cygwin, install the
