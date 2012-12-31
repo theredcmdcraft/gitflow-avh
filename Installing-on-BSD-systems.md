@@ -17,5 +17,4 @@ where git-flow will be installed, simply specify it explicitly, using:
 This will install git-flow in /opt/local/bin
 
 ## Post installation setup
-git-flow depends on the availability of the command line utility `gexpr`, which may not be available in your BSD environment.  
-Please use your favorite package manager to install `gexpr` found in `sysutils/coreutils`.
+None
