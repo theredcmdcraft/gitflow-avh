@@ -9,10 +9,10 @@ Lists all local hotfix branches
 git flow hotfix [list] [-h] [-v]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
--v,--[no]verbose
+-v,--[no]verbose  
 verbose (more) output
 
 ---
@@ -26,13 +26,13 @@ Start new hotfix branch named _\<version>_, optionally base it on _\<base>_ inst
 git flow hotfix start [-h] [-F] \<version> [\<base>]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
 
 ---
@@ -46,43 +46,43 @@ Finish hotfix branch _\<version>_
 git flow hotfix finish [-h] [-F] [-s] [-u] [-m | -f ] [-p] [-k] [-n] [-b] _\<version>_
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
 
--s,--[no]sign
+-s,--[no]sign  
 sign the release tag cryptographically
 
--u,--signingkey
+-u,--signingkey  
 use the given GPG-key for the digital signature (implies -s)
 
--m,--message
+-m,--message  
 use the given tag message
 
--f,--messagefile
+-f,--messagefile  
 use the contents of the given file as tag message
 
--p,--[no]push
+-p,--[no]push  
 push to origin after performing finish
 
--k,--[no]keep
+-k,--[no]keep  
 keep branch after performing finish
 
---[no]keepremote
+--[no]keepremote  
 keep the remote branch
 
---[no]keeplocal
+--[no]keeplocal  
 keep the local branch
 
--n,--[no]notag
+-n,--[no]notag  
 don't tag this release
 
--b,--[no]nobackmerge
+-b,--[no]nobackmerge  
   don't back-merge master, or tag if applicable, in develop 
 
 ---
@@ -96,7 +96,7 @@ Start sharing hotfix _\<name>_ on $ORIGIN
 git flow hotfix publish [-h] \<name>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
 --showcommands
@@ -113,14 +113,14 @@ Deletes a given hotfix branch
 git flow hotfix delete [-h] [-f] [-r] _\<name>_
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
 --showcommands
 Show git commands while executing them
 
--f,--[no]force
+-f,--[no]force  
 force deletion
 
--r,--[no]remote
+-r,--[no]remote  
 delete remote branch

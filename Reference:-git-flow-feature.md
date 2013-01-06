@@ -29,10 +29,10 @@ git flow feature start [-h] [-F] \<name> [\<base>]
 -h,--[no]help
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing local operation
 
 ---
@@ -46,31 +46,31 @@ Finish feature _\<name>_
 git flow feature finish [-h] [-F] [-r] [-k] [-D] [-S] \<name|nameprefix>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
 
--r,--[no]rebase
+-r,--[no]rebase  
 rebase instead of merge
 
--k,--[no]keep
+-k,--[no]keep  
 keep branch after performing finish
 
---[no]keepremote
+--[no]keepremote  
 keep the remote branch
 
---[no]keeplocal
+--[no]keeplocal  
 keep the local branch
 
--D,--[no]force_delete
+-D,--[no]force_delete  
 force delete feature branch after finish
 
--S,--[no]squash
+-S,--[no]squash  
 squash feature during merge
 
 ---
@@ -84,10 +84,10 @@ Publish feature branch _\<name>_ on $ORIGIN
 git flow feature publish [-h] \<name>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
 ---
@@ -101,10 +101,10 @@ Start tracking feature _\<name>_ that is shared on $ORIGIN
 git flow feature track [-h] \<name>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
 ---
@@ -118,10 +118,10 @@ Show all changes in _\<name>_ that are not in _\<develop>_
 git flow feature diff [-h] [\<name|nameprefix>]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
 ---
@@ -135,13 +135,13 @@ Rebase _\<name>_ on _\<develop>_
 git flow feature rebase [-h] [-i] [\<name|nameprefix>]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--i,--[no]interactive
+-i,--[no]interactive  
 do an interactive rebase
 
 ---
@@ -155,10 +155,10 @@ Switch to feature branch _\<name>_
 git flow feature checkout [-h] [\<name|nameprefix>]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
 ---
@@ -172,10 +172,10 @@ Pull feature _\<name>_ from _\<remote>_
 git flow feature pull [-h] \<remote> [\<name>]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
 ---
@@ -189,14 +189,14 @@ Deletes a given feature branch
 git flow feature delete [-h] [-f] [-r] _\<name>_
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--f,--[no]force
+-f,--[no]force  
 force deletion
 
--r,--[no]remote
+-r,--[no]remote  
 delete remote branch

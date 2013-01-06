@@ -9,10 +9,10 @@ List existing release branches
 git flow release [list] [-h] [-v]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
--v,--[no]verbose
+-v,--[no]verbose  
 verbose (more) output
 
 ---
@@ -26,13 +26,13 @@ Start a new release branch
 git flow release start [-h] [-F] \<version>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
 
 ---
@@ -46,46 +46,46 @@ Finish a release branch
 git flow release finish [-h] [-F] [-s] [-u] [-m | -f] [-p] [-k] [-n] [-b] [-S] \<version>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
 
--s,--[no]sign
+-s,--[no]sign  
 sign the release tag cryptographically
 
--u,--signingkey
+-u,--signingkey  
 use the given GPG-key for the digital signature (implies -s)
 
--m,--message
+-m,--message  
 use the given tag message
 
--f,--messagefile
+-f,--messagefile  
 use the contents of the given file as a tag message
 
--p,--[no]push
+-p,--[no]push  
 push to origin after performing finish
 
--k,--[no]keep
+-k,--[no]keep  
 keep branch after performing finish
 
---[no]keepremote
+--[no]keepremote  
 keep the remote branch
 
---[no]keeplocal
+--[no]keeplocal  
 keep the local branch
 
--n,--[no]notag
+-n,--[no]notag  
 don't tag this release
 
--b,--[no]nobackmerge
+-b,--[no]nobackmerge  
 don't back-merge master, or tag if applicable, in develop
 
--S,--[no]squash
+-S,--[no]squash  
 squash release during merge
 
 ---
@@ -100,34 +100,34 @@ develop branch, and use the given version  _\<version>_
 git flow release branch [-h] [-F] [-s] [-u] [-m] [-f] [-p] [-n] [-S] \<version> [\<name>]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
 
--s,--[no]sign
+-s,--[no]sign  
 sign the release tag cryptographically
 
--u,--signingkey
+-u,--signingkey  
 use the given GPG-key for the digital signature (implies -s)
 
--m,--message
+-m,--message  
 use the given tag message
 
--f,--messagefile
+-f,--messagefile  
 use the contents of the given file as a tag message
 
--p,--[no]push
+-p,--[no]push  
 push to origin after performing finish
 
--n,--[no]notag
+-n,--[no]notag  
 don't tag this release
 
--S,--[no]squash
+-S,--[no]squash  
 squash release during merge
 
 ---
@@ -141,7 +141,7 @@ Publish the release branch _\<name>_ on $ORIGIN
 git flow release publish [-h] \<name>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
 --showcommands
@@ -158,10 +158,10 @@ Start tracking release _\<name>_ that is shared on $ORIGIN
 git flow release track [-h] \<name>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
 ---
@@ -175,14 +175,14 @@ Deletes a given release branch
 git flow release delete [-h] [-f] [-r] _\<name>_
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--f,--[no]force
+-f,--[no]force  
 force deletion
 
--r,--[no]remote
+-r,--[no]remote  
 delete remote branch

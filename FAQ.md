@@ -1,4 +1,4 @@
-* **Why a seperate edition of git-flow?**
+* **Why a seperate edition of git-flow?**  
   As we were in need of the implementation of hooks and filters in git-flow, 
   we wrote a patch for the original git-flow. After 5 months the patch still 
   wasn't implemented and we decided to focus our work on creating 
@@ -16,8 +16,7 @@
   a problem.  As long as you do it conciously and realize what this means for
   finishing those branches later on.
   
-* **Why does git-describe not work for me?**
-
+* **Why does git-describe not work for me?**  
 It works with the AVH version of gitflow.  
 Instead of merging the release branch back in to the develop branch, the tag, if given, is merged back in to the develop branch
 

@@ -25,7 +25,7 @@ code already uses (even if it doesn't match the overall style of existing code).
 * Local variables should not be assigned a value during declaration.
 
 * Redirection operators should be written with space before, but no space
-  after them.
+  after them.  
   In other words, write 'echo test >"$file"' instead of 'echo test> $file'
   or 'echo test > $file'.  Note that even though it is not required by POSIX
   to double-quote the redirection target in a variable (as shown above), our
@@ -34,7 +34,7 @@ code already uses (even if it doesn't match the overall style of existing code).
 * We prefer $( ... ) for command substitution; unlike ``, it properly nests.
 
 * If you want to find out if a command is available on the user's $PATH, you
-  should use 'type <command>', instead of 'which <command>'.
+  should use 'type <command>', instead of 'which <command>'.  
   The output of 'which' is not machine parseable and its exit code is not
   reliable across platforms.
 

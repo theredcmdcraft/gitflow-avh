@@ -17,7 +17,7 @@ This will install git-flow in /opt/local/bin
 
 ## Post installation setup
 git-flow depends on the availability of the command line utility `getopt`,
-which may not be available in your Unix/Linux environment.  Please use your
-favorite package manager to install `getopt`.  For Cygwin, install the
-`util-linux` package to get `getopt`.  If you use `apt-get` as your install
-manager, the package name is `opt`.
+which may not be available in your Unix/Linux environment.  
+Please use your favorite package manager to install `getopt`.  
+For Cygwin, install the `util-linux` package to get `getopt`.  
+If you use `apt-get` as your install manager, the package name is `opt`.

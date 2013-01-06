@@ -9,26 +9,27 @@ Setup a git repository for git flow usage. Can also be used to start a git repos
 git flow init [-h] [-d] [-f]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--d,--[no]defaults
+-d,--[no]defaults  
 use default branch naming conventions
 
--f,--[no]force
+-f,--[no]force  
 force setting of gitflow branches, even if already configured
 
 *Use config file location*    
---local    
+--local  
 use repository config file - Default    
-    
---global    
+
+--global  
 use global config file    
     
---system    
-use system config file        
---file ...    
+--system  
+use system config file
+
+--file ...  
 use given config file    

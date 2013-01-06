@@ -15,7 +15,7 @@ The use of filter and/or hooks is not mandated, when a script doesn't exists nor
 ## Filters
 
 ### Version filters
-These filters allow you to change the version.
+These filters allow you to change the version.  
 You can use this for example to automatically update the version, make sure the version adheres to the projects standards.
 
 The filters are implemented in the following git flow commands
@@ -32,8 +32,8 @@ Script name: filter-flow-hotfix-start-version
 ## Hooks
 ### Hook scripts
 Naming convention for the hook scripts follows the Git hooks conventions:
-.git/hooks/{pre,post}-{subcmd}
-For example:
+.git/hooks/{pre,post}-{subcmd}  
+For example:  
 .git/hooks/pre-flow-feature-start
 .git/hooks/post-flow-release-finish
 

@@ -15,7 +15,7 @@ show this help
 --showcommands
 Show git commands while executing them
 
---
+---
 
 ### git flow config set - Update the git-flow configuration
 
@@ -32,29 +32,31 @@ show this help
 --showcommands
 Show git commands while executing them
 
-*Use config file location*    
---local    
-use repository config file - Default    
+*Use config file location*  
+--local  
+use repository config file - Default  
 
---global    
-use global config file    
+--global  
+use global config file  
 
---system    
-use system config file        
+--system  
+use system config file  
 
---file ...    
-use given config file    
-    
+--file ...  
+use given config file  
 
-*Config Options*    
-The following are the options you can set    
-master				- Branch name for production releases    
-develop				- Branch name for "next release" development    
-feature				- Feature branch prefix    
-hotfix				- Hotfix branch prefix    
-release				- Release branch prefix    
-support				- Support branch prefix    
-versiontagprefix	- Version tag prefix    
+
+*Config Options*  
+The following are the options you can set  
+master				- Branch name for production releases  
+develop				- Branch name for "next release" development  
+feature				- Feature branch prefix  
+hotfix				- Hotfix branch prefix  
+release				- Release branch prefix  
+support				- Support branch prefix  
+versiontagprefix	- Version tag prefix  
+
+---
 
 ### git flow config base - Update the git-flow base settings.
 

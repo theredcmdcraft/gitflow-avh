@@ -34,7 +34,7 @@ Install GNU getopt via Homebrew:
 
 Create a `~/.gitflow_export` with the content `FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"`.
 
-For git-flow versions prior to 1.4.0-dev.28
+For git-flow versions prior to 1.4.0-dev.28  
 Create a `~/.gitflow_export` with the content `alias getopt="$(brew --prefix gnu-getopt)/bin/getopt"`.
 
 If you have installed GNU getopt through other means than Homebrew, substitute `$(brew --prefix gnu-getopt)/bin/getopt` with the location of the GNU getopt file.

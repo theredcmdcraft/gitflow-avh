@@ -9,10 +9,10 @@ List all local support branches
 git flow support [list] [-h] [-v]
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
--v,--[no]verbose
+-v,--[no]verbose  
 verbose (more) output
 
 ---
@@ -26,11 +26,11 @@ Start a new support branch name _\<version>_ based on _\<base>_
 git flow support start [-h] [-F] \<version> \<base>
 
 #### Options
--h,--[no]help
+-h,--[no]help  
 show this help
 
---showcommands
+--showcommands  
 Show git commands while executing them
 
--F,--[no]fetch
+-F,--[no]fetch  
 fetch from origin before performing finish
