@@ -55,3 +55,21 @@ hotfix				- Hotfix branch prefix
 release				- Release branch prefix    
 support				- Support branch prefix    
 versiontagprefix	- Version tag prefix    
+
+### git flow config base - Update the git-flow base settings.
+
+#### Description
+Update the git-flow base configuration used when finishing a branch.
+
+#### Synopsis
+git flow config base [options] \<branch\> [\<base\>] 
+
+#### Options
+-h,--[no]help
+show this help
+
+--get  
+Get the base for the given branch (default behavior).
+
+--set   
+Set the given base for the given branch.
