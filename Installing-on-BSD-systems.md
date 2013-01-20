@@ -17,4 +17,8 @@ where git-flow will be installed, simply specify it explicitly, using:
 This will install git-flow in /opt/local/bin
 
 ## Post installation setup
-None
+Install GNU getopt
+
+    cd /usr/ports/misc/getopt/
+    sudo make install
+    
