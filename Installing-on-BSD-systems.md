@@ -22,3 +22,4 @@ Install GNU getopt
     cd /usr/ports/misc/getopt/
     sudo make install
     
+This will install GNU `getopt` in `/usr/local/bin`
