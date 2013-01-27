@@ -2,8 +2,14 @@
 
 ## Homebrew
 
-In the works
+Easy as Homebrew itself is:
 
+### Stable release
+    brew install git-flow-avh
+
+### Development release
+    brew install git-flow-avh --HEAD
+    
 ## wget
 
 Even using wget its a one line effort.
