@@ -113,4 +113,4 @@ You can set these variables either for your entire login session by adding them
 to the apriorate files (i.e. `.bashrc`) or add them to the file 
 `~/.gitflow_export`  
 
-`export RELEASE_FINISH_FETCH=yes`
+    export RELEASE_FINISH_FETCH=yes
