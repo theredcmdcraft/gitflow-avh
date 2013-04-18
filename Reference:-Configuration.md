@@ -17,10 +17,11 @@ Example of a `.gitflow_export` file:
 
 ### Environment variables to set flags
 The environment variables are named as follows:
-`<COMMAND>_<SUBCOMMAND>_<FLAG>`
+`GITFLOW_FLAG_<COMMAND>_<SUBCOMMAND>_<FLAG>`
 All variables should be in caps.
 
-If the variable is a boolean the following values are valid, the case does not matter:
+If the variable is a boolean the following values are valid, the case does not 
+matter:
 * Y
 * YES
 * T
@@ -33,8 +34,9 @@ If the variable is a boolean the following values are valid, the case does not m
 If the variable represents a string surround the value with double quotes.
 
 This is an overview per command of environment variables you can set. The list 
-is in the form `variable - flag - valid value`
-
+is in the form `variable - flag - valid value`  
+For reading improvement the prefix `GITFLOW_FLAG_` is not show here but should 
+be used using the variables. 
 #### git-flow feature
 FEATURE_START_FETCH - fetch - boolean
 
@@ -113,4 +115,4 @@ You can set these variables either for your entire login session by adding them
 to the apriorate files (i.e. `.bashrc`) or add them to the file 
 `~/.gitflow_export`  
 
-    export RELEASE_FINISH_FETCH=yes
+    export GITFLOW_FLAG_RELEASE_FINISH_FETCH=yes
