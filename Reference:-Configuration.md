@@ -42,6 +42,7 @@ FEATURE_START_FETCH - fetch - boolean
 
 FEATURE_FINISH_FETCH - fetch - boolean  
 FEATURE_FINISH_REBASE - rebase - boolean  
+FEATURE_FINISH_PRESERVE_MERGES - preserve_merges - boolean  
 FEATURE_FINISH_KEEP - keep - boolean  
 FEATURE_FINISH_KEEPREMOTE - keepremote - boolean  
 FEATURE_FINISH_KEEPLOCAL - keeplocal - boolean  
@@ -51,6 +52,7 @@ FEATURE_FINISH_SQUASH_INFO - squash_info - boolean
 FEATURE_FINISH_NO_FF - no_ff - boolean  
 
 FEATURE_REBASE_INTERACTIVE - interactive - boolean  
+FEATURE_REBASE_PRESERVE_MERGES - preserve_merges - boolean  
 
 FEATURE_DELETE_FORCE - force - boolean  
 FEATURE_DELETE_REMOTE - remote - boolean  

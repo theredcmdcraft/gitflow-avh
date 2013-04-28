@@ -43,7 +43,7 @@ fetch from origin before performing local operation
 Finish feature _\<name>_
 
 #### Synopsis
-git flow feature finish [-h] [-F] [-r] [-k] [-D] [-S] \<name|nameprefix>
+git flow feature finish [-h] [-F] [-r] [-p] [-k] [-D] [-S] [--no-ff] \<name|nameprefix>
 
 #### Options
 -h,--[no]help  
@@ -57,6 +57,9 @@ fetch from origin before performing finish
 
 -r,--[no]rebase  
 rebase instead of merge
+
+-p,--[no]preserve-merges  
+preserve merges while rebasing
 
 -k,--[no]keep  
 keep branch after performing finish
@@ -72,6 +75,9 @@ force delete feature branch after finish
 
 -S,--[no]squash  
 squash feature during merge
+
+--no-ff  
+never fast-forward during the merge
 
 ---
 
@@ -129,10 +135,10 @@ Show git commands while executing them
 ### git flow feature rebase - Perform a rebase
 
 #### Description
-Rebase _\<name>_ on _\<develop>_
+Rebase _\<name>_ on _\<base_branch>_
 
 #### Synopsis
-git flow feature rebase [-h] [-i] [\<name|nameprefix>]
+git flow feature rebase [-h] [-i] [-p] [\<name|nameprefix>]
 
 #### Options
 -h,--[no]help  
@@ -144,6 +150,9 @@ Show git commands while executing them
 -i,--[no]interactive  
 do an interactive rebase
 
+-p, --[no]preserve-merges  
+preserve merges
+ 
 ---
 
 ### git flow feature checkout - Checkout the feature branch
