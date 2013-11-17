@@ -9,7 +9,16 @@ Easy as Homebrew itself is:
 
 ### Development release
     brew install git-flow-avh --HEAD
-    
+
+### Post installation setup
+As per version 1.7.0 there is no need for any post installation setup.
+If you upgraded from an earlier version you can remove `export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"` 
+from the file `~/.gitflow_export`.
+
+For git-flow prior to 1.7.0
+
+Create a `~/.gitflow_export` with the content `export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"`.
+
 ## wget
 
 Even using wget its a one line effort.
