@@ -13,6 +13,7 @@ the internal commands have been rewritten to speed up the software.
 * [Windows](https://github.com/petervanderdoes/gitflow/wiki/Installing-on-Windows)
 
 ## Reference
+* [General](https://github.com/petervanderdoes/gitflow/wiki/Reference:-General) An overview of general commands, like shortcuts.
 * [git flow init](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-init)
 * [git flow feature](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-feature)
 * [git flow release](https://github.com/petervanderdoes/gitflow/wiki/Reference:-git-flow-release)
