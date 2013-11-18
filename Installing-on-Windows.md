@@ -18,8 +18,8 @@ Download the [getopt binary archive](http://lrn.no-ip.info/other/mingw/mingw32/g
 ### Download that doesn't allow the hacking
 The download is called `Full installer for official Git for Windows`.
 
-Install the application and download the [getopt archive](http://bit.ly/T5ZMHE) which I created to make it a bit easier.
-This archive contains all needed files. Extract the files and copy them in `C:\Program Files(x86)\Git\bin`
+Install the application and download the [getopt archive](http://bit.ly/T5ZMHE) which I created.
+Extract the files and copy them in `C:\Program Files(x86)\Git\bin`
 
 ### Install git-flow
 Clone the git-flow sources from GitHub:
@@ -50,3 +50,34 @@ If you get the error "flags: FATAL unable to determine getopt version" error aft
 	$ git flow init
 
 you need to install the `util-linux` package using the Cygwin setup.
+
+## GitHub for Windows
+
+GitHub for Windows uses a portable installation of MSysGit for its shell. You'll need to follow the above instructions for MSysGit, except for two differences, both of which rely on the install location for GHfW's MSysGit install location. To find that location:
+
+Navigate to the GitHub directory under the OS's `"Local Application Data"` directory. On Windows 7, it is located at: `"C:\Users\USER_NAME\AppData\Local\GitHub"`.
+Look for a directory named something similar to `"PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7"`. Note: the GUID at the end may change.
+
+Once you have the location, use it to perform the following (refer to the above MSysGet instructions above for more details):  
+Download the [getopt archive](http://bit.ly/T5ZMHE) which I created. Extract the files and copy them to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: `"C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin"`.
+
+Open the GitHub for Windows Git Shell and check that you are in the GitHub root directory e.g. `C:\GitHub>`
+Clone the GitFlow folder with 
+
+	C:\GitHub> git clone --recursive git://github.com/nvie/gitflow.git
+
+This will clone the GitFlow code into a new `gitflow` folder in your GitHub directory. You can select a different location if you prefer or you can remove the GitFlow clone later.
+
+Change to the GitFlow directory:
+
+	C:\GitHub> cd gitflow
+
+Run the `msysgit-install` script with the location as a parameter. For example:
+
+	C:\GitHub\gitflow [develop]> contrib\msysgit-install.cmd "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7"
+
+Note: Replace `PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7` with the name of your directory; you do not need the \bin at the end.
+
+Check that GitFlow is installed by calling the help:
+
+	C:\GitHub> git flow help 
