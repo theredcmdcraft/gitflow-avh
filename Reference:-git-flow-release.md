@@ -186,3 +186,27 @@ force deletion
 
 -r,--[no]remote  
 delete remote branch
+
+---
+
+### git flow release rebase - Perform a rebase
+
+#### Description
+Rebase _\<name>_ on _\<base_branch>_
+
+#### Synopsis
+git flow feature rebase [-h] [-i] [-p] [\<name|nameprefix>]
+
+#### Options
+-h,--[no]help  
+show this help
+
+--showcommands  
+Show git commands while executing them
+
+-i,--[no]interactive  
+do an interactive rebase
+
+-p, --[no]preserve-merges  
+preserve merges
+ 
