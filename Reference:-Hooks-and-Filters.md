@@ -29,6 +29,19 @@ Script name: filter-flow-release-start-version
 
 Script name: filter-flow-hotfix-start-version
 
+### Tag message filters
+Filter the given tag message
+ Works for the following commands:
+ 
+ * hotfix finish
+ * release finish
+ * release branch
+ 
+ Script names:
+ * filter-flow-hotfix-finish-tag-message
+ * filter-flow-release-finish-tag-message
+ * filter-flow-release-branch-tag-message
+
 ## Hooks
 ### Hook scripts
 Naming convention for the hook scripts follows the Git hooks conventions:
