@@ -41,9 +41,11 @@ This will not copy the example hook files, only the needed executables.
 
 For Windows users who wish to use the automated install, it is suggested that you install [Cygwin](http://www.cygwin.com/)
 first to install tools like `git`, `util-linux` and `wget` (with those three being packages that can be selected
-during installation). Then simply run this command from a Cygwin shell in your `$HOME`:
+during installation).
+You can either install a stable version or the developer version, simply run 
+this command from a Cygwin shell in your `$HOME` and replace <state> with either stable or develop
 
-	$ wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow/develop/contrib/gitflow-installer.sh | bash
+	$ wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow/develop/contrib/gitflow-installer.sh install <state> | bash
 
 If you get the error "flags: FATAL unable to determine getopt version" error after 
 
