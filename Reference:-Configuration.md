@@ -9,11 +9,11 @@ A remote repo different from .origin. can be specified in the config file:
 With git you can set environment variables to change the default behavior of 
 git. You can set these environment variables just for git-flow.
 
-These environment variables can be set in the file `.gitflow.export` in your 
+These environment variables can be set in the file `.gitflow_export` in your 
 home directory. 
-Example of a `.gitflow.export` file:
+Example of a `.gitflow_export` file:
 
-    export GIT.MERGE.AUTOEDIT=no
+    export GIT_MERGE_AUTOEDIT=no
 
 ### Configuration variables to set flags
 The configuration variables are named as follows:
@@ -112,7 +112,11 @@ release.delete.remote - remote - boolean
 #### git-flow support
 support.start.fetch - fetch - boolean  
 
-#### Example
-You can set these variables using the `git config` command
+#### Usage
+You can set the variables using the `git config` command
 
     git config gitflow.release.finish.fetch yes
+    
+gitflow follows the same pattern for reading the options as `git config`.
+You can use the options `--system`, `--global`, `--local` to write to that 
+location and gitflow will behave simular in reading the configuration as git. 
