@@ -1,5 +1,9 @@
 # Installing on Linux, Unix, etc.
 
+## Ubuntu
+git-flow AVH edition is packaged with Ubuntu. To install git-flow AVH Edition type `sudo apt-get install git-flow`
+
+## Manual
 Under *nix, the easiest way to install git-flow is using Rick Osborne's
 excellent git-flow installer, which can be run using the following command:
 
