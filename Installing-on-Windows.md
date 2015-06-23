@@ -66,7 +66,7 @@ Download the [getopt archive](http://bit.ly/T5ZMHE) which I created. Extract the
 Open the GitHub for Windows Git Shell and check that you are in the GitHub root directory e.g. `C:\GitHub>`
 Clone the GitFlow folder with 
 
-	C:\GitHub> git clone --recursive git://github.com/nvie/gitflow.git
+	C:\GitHub> git clone --recursive git://github.com/petervanderdoes/gitflow.git
 
 This will clone the GitFlow code into a new `gitflow` folder in your GitHub directory. You can select a different location if you prefer or you can remove the GitFlow clone later.
 
