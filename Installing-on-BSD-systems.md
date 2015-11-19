@@ -7,7 +7,7 @@ follow these instructions:
 
 Then, you can install git-flow, using:
 
-	$ sudo make install
+	$ sudo gmake install
 
 By default, git-flow will be installed in /usr/local/bin. To change the prefix
 where git-flow will be installed, simply specify it explicitly, using:
