@@ -3,7 +3,7 @@
 The below instructions are unsupported. The installation files need to be updated.
 
 For Windows users, [msysGit]
-
+For [Visual Studio] 2013 and up there is an extension available created by Jakob Ehn
 
 ## msysGit
 
@@ -35,6 +35,12 @@ installer):
 
 **Note**
 This will not copy the example hook files, only the needed executables.
+
+## Visual Studio
+[Jakob Ehn](https://github.com/jakobehn/) created an extension for Visual Studio. Currently Visual Studio 2013 and 2015 are supported.  
+The extension is available on the Microsoft Visual Studio Gallery website, the 2013 extension you can find [here](https://visualstudiogallery.msdn.microsoft.com/27f6d087-9b6f-46b0-b236-d72907b54683) and the 2015 extension is located [here](https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a)  
+For more information about the extension read up on [Jakob's website](http://blog.ehn.nu/2015/02/introducing-gitflow-for-visual-studio/) and you can find the source on [Github](https://github.com/jakobehn/GitFlow.VS)  
+
 
 ## Cygwin
 
