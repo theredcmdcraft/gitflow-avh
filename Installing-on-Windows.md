@@ -2,7 +2,7 @@
 
 The below instructions are unsupported. The installation files need to be updated.
 
-For Windows users, [msysGit](#msysgit)
+For Windows users, [msysGit](#msysgit)  
 For [Visual Studio](#visual-studio) 2013 and up there is an extension available created by Jakob Ehn
 
 ## msysGit
