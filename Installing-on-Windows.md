@@ -7,7 +7,7 @@ Follow the instructions on the [Git for Windows homepage](https://git-for-window
 
 # Other Methods
 
-For [Visual Studio](#visual-studio) 2013 and up there is an extension available created by Jakob Ehn
+The below instructions are unsupported. The installation files need to be updated.
 
 ## Visual Studio
 [Jakob Ehn](https://github.com/jakobehn/) created an extension for Visual Studio. Currently Visual Studio 2013 and 2015 are supported.  
