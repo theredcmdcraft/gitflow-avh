@@ -1,12 +1,13 @@
 # Installing on Windows
 
-The below instructions are unsupported. The installation files need to be updated.
-
-For Windows users, [Git for Windows](#git-for-windows)  
-For [Visual Studio](#visual-studio) 2013 and up there is an extension available created by Jakob Ehn
+For Windows users, [Git for Windows](#git-for-windows) is the recommended method.
 
 ## Git for Windows
 Follow the instructions on the [Git for Windows homepage](https://git-for-windows.github.io) to install Git for Windows.  As of Git for Windows 2.6.4, GitFlow (AVH edition) is included, so you're all done.
+
+# Other Methods
+
+For [Visual Studio](#visual-studio) 2013 and up there is an extension available created by Jakob Ehn
 
 ## Visual Studio
 [Jakob Ehn](https://github.com/jakobehn/) created an extension for Visual Studio. Currently Visual Studio 2013 and 2015 are supported.  
