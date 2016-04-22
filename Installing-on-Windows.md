@@ -2,24 +2,19 @@
 
 The below instructions are unsupported. The installation files need to be updated.
 
-For Windows users, [msysGit](#msysgit)  
+For Windows users, [Git for Windows](#git-for-windows)  
 For [Visual Studio](#visual-studio) 2013 and up there is an extension available created by Jakob Ehn
 
-## msysGit
+## Git for Windows
 
-msysGit allows multiple forms of installation, one which allows you to hack git and one that doesn't.
+Git for Windows allows multiple forms of installation, one which allows you to hack git and one that doesn't.
 
 ### Downloads that allow hacking
-The downloads are called `Net installer if you want to hack on Git` and `Full installer (self-contained) if you want to hack on Git `
-Follow the instructions on the [msysGit wiki](https://github.com/msysgit/msysgit/wiki/InstallMSysGit) to install git. Their preferred method is the Net Installer.
-
-Download the [getopt binary archive](http://lrn.no-ip.info/other/mingw/mingw32/getopt/1.1.4-1/getopt-1.1.4-1-mingw32-bin.tar.lzma), extract the `getopt.exe`  and copy it in `C:\msysgit\bin` 
+The downloads is called 'Git for Windows SDK'
+Follow the instructions on the [Git for Windows wiki](https://github.com/git-for-windows/git/wiki/Technical-overview) to install git.
 
 ### Download that doesn't allow the hacking
 The download is called `Full installer for official Git for Windows`.
-
-Install the application and download the [getopt archive](http://bit.ly/T5ZMHE) which I created.
-Extract the files and copy them in `C:\Program Files(x86)\Git\bin`
 
 ### Install git-flow
 Clone the git-flow sources from GitHub:
