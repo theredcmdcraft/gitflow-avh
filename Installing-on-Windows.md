@@ -6,41 +6,14 @@ For Windows users, [Git for Windows](#git-for-windows)
 For [Visual Studio](#visual-studio) 2013 and up there is an extension available created by Jakob Ehn
 
 ## Git for Windows
-
-Git for Windows allows multiple forms of installation, one which allows you to hack git and one that doesn't.
-
-### Downloads that allow hacking
-The downloads is called `Git for Windows SDK`.
-Follow the instructions on the [Git for Windows wiki](https://github.com/git-for-windows/git/wiki/Technical-overview) to install the Git for Windows SDK.
-
-### Download that doesn't allow the hacking
-The download is called `Git for Windows`.
-Follow the instructions on the [Git for Windows homepage](https://git-for-windows.github.io) to install Git for Windows.
-
-### Install git-flow
-Clone the git-flow sources from GitHub:
-
-	$ git clone git://github.com/petervanderdoes/gitflow.git
-	$ cd gitflow
-
-Run the `msysgit-install` script from a command-line prompt (you may have to
-run it with "Full Administrator" rights if you installed msysgit with its
-installer):
-
-	C:\gitflow> contrib\msysgit-install.cmd
-
-**Note**
-This will not copy the example hook files, only the needed executables.
+Follow the instructions on the [Git for Windows homepage](https://git-for-windows.github.io) to install Git for Windows.  As of Git for Windows 2.6.4, GitFlow (AVH edition) is included, so you're all done.
 
 ## Visual Studio
 [Jakob Ehn](https://github.com/jakobehn/) created an extension for Visual Studio. Currently Visual Studio 2013 and 2015 are supported.  
 The extension is available on the Microsoft Visual Studio Gallery website, the 2013 extension you can find [here](https://visualstudiogallery.msdn.microsoft.com/27f6d087-9b6f-46b0-b236-d72907b54683) and the 2015 extension is located [here](https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a)  
 For more information about the extension read up on [Jakob's website](http://blog.ehn.nu/2015/02/introducing-gitflow-for-visual-studio/) and you can find the source on [Github](https://github.com/jakobehn/GitFlow.VS)  
 
-
 ## Cygwin
-
-
 For Windows users who wish to use the automated install, it is suggested that you install [Cygwin](http://www.cygwin.com/)
 first to install tools like `git`, `util-linux` and `wget` (with those three being packages that can be selected
 during installation).
