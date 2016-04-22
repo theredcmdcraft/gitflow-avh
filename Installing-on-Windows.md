@@ -10,11 +10,12 @@ For [Visual Studio](#visual-studio) 2013 and up there is an extension available 
 Git for Windows allows multiple forms of installation, one which allows you to hack git and one that doesn't.
 
 ### Downloads that allow hacking
-The downloads is called 'Git for Windows SDK'
-Follow the instructions on the [Git for Windows wiki](https://github.com/git-for-windows/git/wiki/Technical-overview) to install git.
+The downloads is called `Git for Windows SDK`.
+Follow the instructions on the [Git for Windows wiki](https://github.com/git-for-windows/git/wiki/Technical-overview) to install the Git for Windows SDK.
 
 ### Download that doesn't allow the hacking
-The download is called `Full installer for official Git for Windows`.
+The download is called `Git for Windows`.
+Follow the instructions on the [Git for Windows homepage](https://git-for-windows.github.io) to install Git for Windows.
 
 ### Install git-flow
 Clone the git-flow sources from GitHub:
