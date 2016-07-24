@@ -68,7 +68,13 @@ use the given tag message
 use the contents of the given file as a tag message
 
 -p,--[no]push  
-push to origin after performing finish
+push the production and develop branch to origin after performing the finish.
+
+--[no]pushproduction  Push the production branch
+push the production branch to origin after performing the finish.
+
+--[no]pushdevelop     Push the develop branch
+push the develop branch to origin after performing the finish.
 
 -k,--[no]keep  
 keep branch after performing finish
