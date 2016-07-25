@@ -88,6 +88,9 @@ keep the local branch
 -n,--[no]notag  
 don't tag this release
 
+-T,--tagname  
+Use given tag name
+
 -b,--[no]nobackmerge  
 don't back-merge master, or tag if applicable, in develop
 
