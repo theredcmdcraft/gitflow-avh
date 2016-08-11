@@ -97,6 +97,8 @@ don't back-merge master, or tag if applicable, in develop
 -S,--[no]squash  
 squash release during merge
 
+--ff-master  
+Fast forward master branch if possible
 ---
 
 ### git flow release branch - Finish any given branch

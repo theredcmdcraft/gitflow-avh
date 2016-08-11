@@ -48,13 +48,14 @@ use given config file
 
 *Config Options*  
 The following are the options you can set  
-master				- Branch name for production releases  
-develop				- Branch name for "next release" development  
-feature				- Feature branch prefix  
-hotfix				- Hotfix branch prefix  
-release				- Release branch prefix  
-support				- Support branch prefix  
-versiontagprefix	- Version tag prefix  
+master			 - string  - Branch name for production releases  
+develop			 - string  - Branch name for "next release" development  
+feature			 - string  - Feature branch prefix  
+hotfix			 - string  - Hotfix branch prefix  
+release			 - string  - Release branch prefix  
+support			 - string  - Support branch prefix  
+versiontagprefix - string  - Version tag prefix  
+allowmultihotfix - boolean - Allow multiple hotfix branches
 
 ---
 
