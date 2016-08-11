@@ -73,6 +73,9 @@ hotfix.finish.signingkey - signingkey - string
 hotfix.finish.message - message - string  
 hotfix.finish.messagefile - messagefile - string  
 
+hotfix.rebase.interactive - interactive - boolean  
+hotfix.rebase.preserve.merges - preserve.merges - boolean  
+
 hotfix.delete.force - force - boolean  
 
 #### git-flow init
@@ -106,14 +109,19 @@ release.branch.signingkey - signingkey - string
 release.branch.message - message - string  
 release.branch.messagefile - messagefile - string  
 
+release.rebase.interactive - interactive - boolean  
+release.rebase.preserve.merges - preserve.merges - boolean
+  
 release.delete.fetch - fetch - boolean  
 release.delete.remote - remote - boolean  
 
 #### git-flow support
 support.start.fetch - fetch - boolean  
+support.rebase.interactive - interactive - boolean  
+support.rebase.preserve.merges - preserve.merges - boolean  
 
-#### Usage
-You can set the variables using the `git config` command
+#### Example
+You can set these variables using the `git config` command
 
     git config gitflow.release.finish.fetch yes
     

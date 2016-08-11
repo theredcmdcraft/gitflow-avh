@@ -68,7 +68,13 @@ use the given tag message
 use the contents of the given file as a tag message
 
 -p,--[no]push  
-push to origin after performing finish
+push the production and develop branch to origin after performing the finish.
+
+--[no]pushproduction  Push the production branch
+push the production branch to origin after performing the finish.
+
+--[no]pushdevelop     Push the develop branch
+push the develop branch to origin after performing the finish.
 
 -k,--[no]keep  
 keep branch after performing finish
@@ -82,12 +88,17 @@ keep the local branch
 -n,--[no]notag  
 don't tag this release
 
+-T,--tagname  
+Use given tag name
+
 -b,--[no]nobackmerge  
 don't back-merge master, or tag if applicable, in develop
 
 -S,--[no]squash  
 squash release during merge
 
+--ff-master  
+Fast forward master branch if possible
 ---
 
 ### git flow release branch - Finish any given branch
@@ -186,3 +197,27 @@ force deletion
 
 -r,--[no]remote  
 delete remote branch
+
+---
+
+### git flow release rebase - Perform a rebase
+
+#### Description
+Rebase _\<name>_ on _\<base_branch>_
+
+#### Synopsis
+git flow feature rebase [-h] [-i] [-p] [\<name|nameprefix>]
+
+#### Options
+-h,--[no]help  
+show this help
+
+--showcommands  
+Show git commands while executing them
+
+-i,--[no]interactive  
+do an interactive rebase
+
+-p, --[no]preserve-merges  
+preserve merges
+ 
