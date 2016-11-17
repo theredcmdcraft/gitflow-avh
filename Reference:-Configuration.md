@@ -48,7 +48,7 @@ feature.finish.keepremote - keepremote - boolean
 feature.finish.keeplocal - keeplocal - boolean  
 feature.finish.force.delete - force.delete - boolean  
 feature.finish.squash - squash - boolean  
-feature.finish.squash.info - squash.info - boolean  
+feature.finish.squash-info - squash.info - boolean  
 feature.finish.no-ff - no-ff - boolean  
 
 feature.rebase.interactive - interactive - boolean  
