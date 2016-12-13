@@ -20,10 +20,10 @@ verbose (more) output
 ### git flow support start - Start a support branch
 
 #### Description
-Start a new support branch name _\<version>_ based on _\<base>_
+Start a new support branch name _\<version>_, optionally basing it on _\<base>_ instead of _\<master>_
 
 #### Synopsis
-git flow support start [-h] [-F] \<version> \<base>
+git flow support start [-h] [-F] \<version> [\<base>]
 
 #### Options
 -h,--[no]help  
@@ -33,7 +33,7 @@ show this help
 Show git commands while executing them
 
 -F,--[no]fetch  
-fetch from origin before performing finish
+fetch from origin before performing start
 
 ---
 
