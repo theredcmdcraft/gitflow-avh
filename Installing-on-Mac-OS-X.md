@@ -33,7 +33,7 @@ Even using wget its a one line effort.
 
 wget: command not found?  curl is only two.  (Note that URL is where the above URL currently redirects.)
 
-    curl https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh > gitflow-installer.sh
+    curl https://raw.githubusercontent.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh > gitflow-installer.sh
     chmod a+x gitflow-installer.sh
 
 ### Stable release

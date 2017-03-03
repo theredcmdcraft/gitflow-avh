@@ -21,7 +21,7 @@ during installation).
 You can either install a stable version or the developer version, simply run 
 this command from a Cygwin shell in your `$HOME` and replace <state> with either stable or develop
 
-	$ wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow/develop/contrib/gitflow-installer.sh install <state> | bash
+	$ wget -q -O - --no-check-certificate https://raw.githubusercontent.com/petervanderdoes/gitflow/develop/contrib/gitflow-installer.sh install <state> | bash
 
 If you get the error "flags: FATAL unable to determine getopt version" error after 
 
