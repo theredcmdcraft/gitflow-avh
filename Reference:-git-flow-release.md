@@ -99,6 +99,7 @@ squash release during merge
 
 --ff-master  
 Fast forward master branch if possible
+
 ---
 
 ### git flow release branch - Finish any given branch

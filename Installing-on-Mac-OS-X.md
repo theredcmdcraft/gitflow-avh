@@ -37,10 +37,10 @@ wget: command not found?  curl is only two.  (Note that URL is where the above U
     chmod a+x gitflow-installer.sh
 
 ### Stable release
-    sudo bash gitflow-installer.sh install stable
+    curl -sL https://github.com/petervanderdoes/gitflow-avh/raw/develop/contrib/gitflow-installer.sh | sudo bash -s install stable
 
 ### Development release
-    sudo bash gitflow-installer.sh install develop
+    curl -sL https://github.com/petervanderdoes/gitflow-avh/raw/develop/contrib/gitflow-installer.sh | sudo bash -s install develop
     
 ## Post installation setup
 Install GNU getopt via Homebrew:    
