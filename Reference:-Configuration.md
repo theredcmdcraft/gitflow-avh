@@ -15,6 +15,13 @@ Example of a `.gitflow_export` file:
 
     export GIT_MERGE_AUTOEDIT=no
 
+### Change behavior of gitflow through configuration settings
+
+- Starting a hotfix, support, or release branch with a dirty tree.  
+By default you can **not** start one when your working tree is dirty. You can change this behavior by setting the following configuration.  
+`git config --bool --set gitflow.allowdirty`  
+This can be set like any other git configuration, global, system, or local.
+
 ### Configuration variables to set flags
 The configuration variables are named as follows:
 `gitflow.<command>.<subcommand>.<flags>`
