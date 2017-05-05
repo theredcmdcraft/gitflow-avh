@@ -45,7 +45,7 @@ wget: command not found?  curl is only two.  (Note that URL is where the above U
 ## Post installation setup
 Install GNU getopt via Homebrew:    
 
-    brew install gnu-getopt.
+    brew install gnu-getopt
 
 Create a `~/.gitflow_export` with the content `export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"`.
 
