@@ -86,7 +86,7 @@ don't tag this release
 Use given tag name
 
 -b,--[no]nobackmerge  
-  don't back-merge master, or tag if applicable, in develop 
+  don't back-merge master, or tag if applicable, in develop
 
 ---
 
@@ -150,4 +150,20 @@ do an interactive rebase
 
 -p, --[no]preserve-merges  
 preserve merges
- 
+
+---
+
+### git flow hotfix rename - Rename a hotfix branch
+
+#### Description
+Rename branch _\<name>_ to _\<new_name>_
+
+#### Synopsis
+git flow hotfix rename [-h] \<new_name> [\<name>]
+
+#### Options
+-h,--[no]help  
+show this help
+
+--showcommands  
+Show git commands while executing them

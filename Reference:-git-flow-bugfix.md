@@ -152,7 +152,7 @@ do an interactive rebase
 
 -p, --[no]preserve-merges  
 preserve merges
- 
+
 ---
 
 ### git flow bugfix checkout - Checkout the bugfix branch
@@ -195,7 +195,7 @@ Show git commands while executing them
 Deletes a given bugfix branch
 
 #### Synopsis
-git flow bugfix delete [-h] [-f] [-r] _\<name>_
+git flow bugfix delete [-h] [-f] [-r] \<name>
 
 #### Options
 -h,--[no]help  
@@ -209,3 +209,20 @@ force deletion
 
 -r,--[no]remote  
 delete remote branch
+
+---
+
+### git flow bugfix rename - Rename a bugfix branch
+
+#### Description
+Rename branch _\<name>_ to _\<new_name>_
+
+#### Synopsis
+git flow bugfix rename [-h] \<new_name> [\<name>]
+
+#### Options
+-h,--[no]help  
+show this help
+
+--showcommands  
+Show git commands while executing them

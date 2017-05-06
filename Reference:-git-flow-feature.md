@@ -152,7 +152,7 @@ do an interactive rebase
 
 -p, --[no]preserve-merges  
 preserve merges
- 
+
 ---
 
 ### git flow feature checkout - Checkout the feature branch
@@ -195,7 +195,7 @@ Show git commands while executing them
 Deletes a given feature branch
 
 #### Synopsis
-git flow feature delete [-h] [-f] [-r] _\<name>_
+git flow feature delete [-h] [-f] [-r] \<name>
 
 #### Options
 -h,--[no]help  
@@ -209,3 +209,20 @@ force deletion
 
 -r,--[no]remote  
 delete remote branch
+
+---
+
+### git flow feature rename - Rename a feature branch
+
+#### Description
+Rename branch _\<name>_ to _\<new_name>_
+
+#### Synopsis
+git flow feature rename [-h] \<new_name> [\<name>]
+
+#### Options
+-h,--[no]help  
+show this help
+
+--showcommands  
+Show git commands while executing them
