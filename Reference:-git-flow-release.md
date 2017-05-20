@@ -70,10 +70,10 @@ use the contents of the given file as a tag message
 -p,--[no]push  
 push the production and develop branch to origin after performing the finish.
 
---[no]pushproduction  Push the production branch
+--[no]pushproduction
 push the production branch to origin after performing the finish.
 
---[no]pushdevelop     Push the develop branch
+--[no]pushdevelop
 push the develop branch to origin after performing the finish.
 
 -k,--[no]keep  
