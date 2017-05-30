@@ -134,4 +134,4 @@ You can set these variables using the `git config` command
     
 gitflow follows the same pattern for reading the options as `git config`.
 You can use the options `--system`, `--global`, `--local` to write to that 
-location and gitflow will behave simular in reading the configuration as git. 
+location and gitflow will behave similar in reading the configuration as git. 
