@@ -34,6 +34,5 @@ Instead of merging the release branch back in to the develop branch, the tag, if
   tag.</del>
   
 * **Can I use it with Windows?**  
-  There have been reports of Windows users using `git-flow`.
-  <del>Un</del>fortunately, I have no Windows environment to test it on.
+  Yes, see [[Installing on Windows|Installing on Windows]]
   
