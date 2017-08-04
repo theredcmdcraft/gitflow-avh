@@ -43,7 +43,7 @@ fetch from origin before performing start
 Rebase _\<name>_ on _\<base_branch>_
 
 #### Synopsis
-git flow feature rebase [-h] [-i] [-p] [\<name|nameprefix>]
+git flow support rebase [-h] [-i] [-p] [\<name|nameprefix>]
 
 #### Options
 -h,--[no]help  
