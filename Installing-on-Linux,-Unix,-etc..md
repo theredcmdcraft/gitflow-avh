@@ -1,7 +1,9 @@
 # Installing on Linux, Unix, etc.
 
 ## Ubuntu
-git-flow AVH edition is packaged with Ubuntu. To install git-flow AVH Edition type `sudo apt-get install git-flow`.  
+git-flow AVH edition is packaged with Ubuntu **but the repositories are NOT updated** ([#336](https://github.com/petervanderdoes/gitflow-avh/issues/336)). Use the manual instructions below.
+
+To install a **3+ year old** version of git-flow AVH Edition type `sudo apt-get install git-flow`.  
 
 A PPA exists with the latest git-flow version for Ubuntu, backported from Ubuntu Xenial.
 * Precise (12.04)
