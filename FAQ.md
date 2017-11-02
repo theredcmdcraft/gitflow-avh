@@ -1,10 +1,10 @@
-* **Why a seperate edition of git-flow?**  
+* **Why a separate edition of git-flow?**  
   As we were in need of the implementation of hooks and filters in git-flow, 
   we wrote a patch for the original git-flow. After 5 months the patch still 
   wasn't implemented and we decided to focus our work on creating 
   the AVH Edition.  
   Because of the rewrite we did it seems very likely that the patches for new 
-  features and bugfixes we create for the AVH Edition, are not compatible with 
+  features and bugfixes we create for the AVH Edition are not compatible with 
   the original git-flow.
   
 * **Can I still do manual branches and merges when I use git-flow?**  
@@ -13,12 +13,12 @@
   So if you want to merge `master` into `develop` for whatever reason you want
   to, you can safely do so without breaking `git-flow` compatibility.  Do you
   want to manually merge a feature branch X into another feature branch Y?  Not
-  a problem.  As long as you do it conciously and realize what this means for
+  a problem.  As long as you do it consciously and realize what this means for
   finishing those branches later on.
   
 * **Why does git-describe not work for me?**  
 It works with the AVH version of gitflow.  
-Instead of merging the release branch back in to the develop branch, the tag, if given, is merged back in to the develop branch
+Instead of merging the release branch back in to the develop branch, the tag, if given, is merged back into the develop branch
 
 <del>  When finishing release and hotfix branches, that branch's HEAD is first
   merged into `master` and then into `develop`.  It is not the resulting new
