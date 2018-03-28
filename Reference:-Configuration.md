@@ -49,7 +49,7 @@ feature.start.fetch - fetch - boolean
 
 feature.finish.fetch - fetch - boolean  
 feature.finish.rebase - rebase - boolean  
-feature.finish.preserve-merges - preserve-merges - boolean
+feature.finish.preserve-merges - preserve-merges - boolean  
 feature.finish.push - push - boolean  
 feature.finish.keep - keep - boolean  
 feature.finish.keepremote - keepremote - boolean  
