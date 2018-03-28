@@ -53,7 +53,7 @@ feature.finish.preserve-merges - preserve-merges - boolean
 feature.finish.keep - keep - boolean  
 feature.finish.keepremote - keepremote - boolean  
 feature.finish.keeplocal - keeplocal - boolean  
-feature.finish.force.delete - force.delete - boolean  
+feature.finish.force-delete - force-delete - boolean  
 feature.finish.squash - squash - boolean  
 feature.finish.squash-info - squash.info - boolean  
 feature.finish.no-ff - no-ff - boolean  
@@ -73,7 +73,7 @@ hotfix.finish.push - push - boolean
 hotfix.finish.keep - keep - boolean  
 hotfix.finish.keepremote - keepremote - boolean  
 hotfix.finish.keeplocal - keeplocal - boolean  
-hotfix.finish.force.delete - force.delete - boolean  
+hotfix.finish.force-delete - force-delete - boolean  
 hotfix.finish.notag - notag - boolean  
 hotfix.finish.nobackmerge - nobackmerge - boolean  
 hotfix.finish.signingkey - signingkey - string  
@@ -97,7 +97,7 @@ release.finish.push - push - boolean
 release.finish.keep - keep - boolean  
 release.finish.keepremote - keepremote - boolean  
 release.finish.keeplocal - keeplocal - boolean  
-release.finish.force.delete - force.delete - boolean  
+release.finish.force-delete - force-delete - boolean  
 release.finish.notag - notag - boolean  
 release.finish.nobackmerge - nobackmerge - boolean  
 release.finish.squash - squash - boolean  
