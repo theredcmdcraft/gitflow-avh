@@ -49,7 +49,7 @@ feature.start.fetch - fetch - boolean
 
 feature.finish.fetch - fetch - boolean  
 feature.finish.rebase - rebase - boolean  
-feature.finish.preserve.merges - preserve.merges - boolean  
+feature.finish.preserve-merges - preserve-merges - boolean  
 feature.finish.keep - keep - boolean  
 feature.finish.keepremote - keepremote - boolean  
 feature.finish.keeplocal - keeplocal - boolean  
@@ -59,7 +59,7 @@ feature.finish.squash-info - squash.info - boolean
 feature.finish.no-ff - no-ff - boolean  
 
 feature.rebase.interactive - interactive - boolean  
-feature.rebase.preserve.merges - preserve.merges - boolean  
+feature.rebase.preserve-merges - preserve-merges - boolean  
 
 feature.delete.force - force - boolean  
 feature.delete.remote - remote - boolean  
@@ -81,7 +81,7 @@ hotfix.finish.message - message - string
 hotfix.finish.messagefile - messagefile - string  
 
 hotfix.rebase.interactive - interactive - boolean  
-hotfix.rebase.preserve.merges - preserve.merges - boolean  
+hotfix.rebase.preserve-merges - preserve-merges - boolean  
 
 hotfix.delete.force - force - boolean  
 
@@ -117,7 +117,7 @@ release.branch.message - message - string
 release.branch.messagefile - messagefile - string  
 
 release.rebase.interactive - interactive - boolean  
-release.rebase.preserve.merges - preserve.merges - boolean
+release.rebase.preserve-merges - preserve-merges - boolean
   
 release.delete.fetch - fetch - boolean  
 release.delete.remote - remote - boolean  
@@ -125,7 +125,7 @@ release.delete.remote - remote - boolean
 #### git-flow support
 support.start.fetch - fetch - boolean  
 support.rebase.interactive - interactive - boolean  
-support.rebase.preserve.merges - preserve.merges - boolean  
+support.rebase.preserve-merges - preserve-merges - boolean  
 
 #### Example
 You can set these variables using the `git config` command
