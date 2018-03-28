@@ -55,7 +55,7 @@ feature.finish.keepremote - keepremote - boolean
 feature.finish.keeplocal - keeplocal - boolean  
 feature.finish.force-delete - force-delete - boolean  
 feature.finish.squash - squash - boolean  
-feature.finish.squash-info - squash.info - boolean  
+feature.finish.squash-info - squash-info - boolean  
 feature.finish.no-ff - no-ff - boolean  
 
 feature.rebase.interactive - interactive - boolean  
@@ -101,7 +101,7 @@ release.finish.force-delete - force-delete - boolean
 release.finish.notag - notag - boolean  
 release.finish.nobackmerge - nobackmerge - boolean  
 release.finish.squash - squash - boolean  
-release.finish.squash.info - squash.info - boolean  
+release.finish.squash-info - squash-info - boolean  
 release.finish.signingkey - signingkey - string  
 release.finish.message - message - string  
 release.finish.messagefile - messagefile - string  
@@ -111,7 +111,7 @@ release.branch.sign - sign - boolean
 release.branch.push - push - boolean  
 release.branch.notag - notag - boolean  
 release.branch.squash - squash - boolean  
-release.branch.squash.info - squash.info - boolean  
+release.branch.squash-info - squash-info - boolean  
 release.branch.signingkey - signingkey - string  
 release.branch.message - message - string  
 release.branch.messagefile - messagefile - string  
