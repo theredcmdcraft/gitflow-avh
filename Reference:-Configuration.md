@@ -44,6 +44,27 @@ This is an overview per command of configuration variables you can set. The list
 is in the form `variable - flag - valid value`  
 For reading improvement the prefix `gitflow.` is not show here but should 
 be used when you set the variable. 
+#### git-flow bugfix
+bugfix.start.fetch - fetch - boolean
+
+bugfix.finish.fetch - fetch - boolean  
+bugfix.finish.rebase - rebase - boolean  
+bugfix.finish.preserve-merges - preserve-merges - boolean  
+bugfix.finish.push - push - boolean  
+bugfix.finish.keep - keep - boolean  
+bugfix.finish.keepremote - keepremote - boolean  
+bugfix.finish.keeplocal - keeplocal - boolean  
+bugfix.finish.force-delete - force_delete - boolean  
+bugfix.finish.squash - squash - boolean  
+bugfix.finish.squash-info - squash-info - boolean  
+bugfix.finish.no-ff - no-ff - boolean  
+
+bugfix.rebase.interactive - interactive - boolean  
+bugfix.rebase.preserve-merges - preserve-merges - boolean  
+
+bugfix.delete.force - force - boolean  
+bugfix.delete.remote - remote - boolean  
+
 #### git-flow feature
 feature.start.fetch - fetch - boolean
 
@@ -54,7 +75,7 @@ feature.finish.push - push - boolean
 feature.finish.keep - keep - boolean  
 feature.finish.keepremote - keepremote - boolean  
 feature.finish.keeplocal - keeplocal - boolean  
-feature.finish.force-delete - force-delete - boolean  
+feature.finish.force-delete - force_delete - boolean  
 feature.finish.squash - squash - boolean  
 feature.finish.squash-info - squash-info - boolean  
 feature.finish.no-ff - no-ff - boolean  
@@ -125,6 +146,7 @@ release.delete.remote - remote - boolean
 
 #### git-flow support
 support.start.fetch - fetch - boolean  
+
 support.rebase.interactive - interactive - boolean  
 support.rebase.preserve-merges - preserve-merges - boolean  
 
