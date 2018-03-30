@@ -4,7 +4,7 @@ This is an overview of general commands
 ### git flow finish - Finish the branch you are currently on.
 
 #### Description
- This is a shortcut to finish the feature/hotfix/release/support branch you are 
+ This is a shortcut to finish the bugfix/feature/hotfix/release/support branch you are 
  currently on. It will take all the same options as the full command to finish 
  the branch.
  
@@ -15,7 +15,7 @@ This is an overview of general commands
 ### git flow delete - Delete the branch you are currently on.
 
 #### Description
- This is a shortcut to delete the feature/hotfix/release/support branch you are 
+ This is a shortcut to delete the bugfix/feature/hotfix/release/support branch you are 
  currently on. It will take all the same options as the full command to delete 
  the branch.
  
@@ -26,7 +26,7 @@ This is an overview of general commands
 ### git flow publish - Publish the branch you are currently on.
 
 #### Description
- This is a shortcut to publish the feature/hotfix/release/support branch you 
+ This is a shortcut to publish the bugfix/feature/hotfix/release/support branch you 
  are currently on.
  
  For example: If you are on a feature branch named New1 `git flow publish` will 
@@ -36,7 +36,7 @@ This is an overview of general commands
 ### git flow rebase - Rebase the branch you are currently on.
 
 #### Description
- This is a shortcut to rebase the feature/hotfix/release/support branch you 
+ This is a shortcut to rebase the bugfix/feature/hotfix/release/support branch you 
  are currently on.
  
  For example: If you are on a feature branch named New1 `git flow rebase -p` will 
