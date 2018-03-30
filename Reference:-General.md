@@ -32,3 +32,13 @@ This is an overview of general commands
  For example: If you are on a feature branch named New1 `git flow publish` will 
  do the same as `git flow feature publish New1`
 
+---
+### git flow rebase - Rebase the branch you are currently on.
+
+#### Description
+ This is a shortcut to rebase the feature/hotfix/release/support branch you 
+ are currently on.
+ 
+ For example: If you are on a feature branch named New1 `git flow rebase -p` will 
+ do the same as `git flow feature rebase -p New1`
+
