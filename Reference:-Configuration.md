@@ -42,7 +42,7 @@ If the variable represents a string surround the value with double quotes.
 
 This is an overview per command of configuration variables you can set. The list 
 is in the form `variable - flag - valid value`  
-For reading improvement the prefix `gitflow.` is not show here but should 
+For reading improvement the prefix `gitflow.` is not shown here but should 
 be used when you set the variable. 
 #### git-flow bugfix
 bugfix.start.fetch - fetch - boolean
