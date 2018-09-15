@@ -56,7 +56,7 @@ Show git commands while executing them
 fetch from origin before performing finish
 
 -r,--[no]rebase  
-rebase instead of merge
+rebase before merging
 
 -p,--[no]preserve-merges  
 preserve merges while rebasing
