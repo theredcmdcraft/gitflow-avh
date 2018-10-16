@@ -1,19 +1,18 @@
 # Installing on Linux, Unix, etc.
 
 ## Ubuntu
-git-flow AVH edition is packaged with Ubuntu **but the repositories are NOT updated** ([#336](https://github.com/petervanderdoes/gitflow-avh/issues/336)). Use the manual instructions below.
 
-To install a **3+ year old** version of git-flow AVH Edition type `sudo apt-get install git-flow`.  
+* **Ubuntu 18.04**: git-flow AVH edition is packaged with Ubuntu. You can install the last version of  git-flow AVH Edition using:
+    ```
+    $ sudo apt-get install git-flow
+    ```
 
-A PPA exists with the latest git-flow version for Ubuntu, backported from Ubuntu Xenial.
-* Precise (12.04)
-* Trusty (14.04)
-* Wily (15.10)
-* Xenial (16.04)
+* **Previous versions of Ubuntu**: the official repositories for old versions of Ubuntu include *3+ year old versions* of the git-flow AVH edition. These repositories had been not updated ([#336](https://github.com/petervanderdoes/gitflow-avh/issues/336)). If you install the software using `apt-get install` you will obtain obsolete versions. Instead of that, please use the manual instructions below.
 
-See the Launchpad page at [https://launchpad.net/~pdoes/+archive/ubuntu/gitflow-avh](https://launchpad.net/~pdoes/+archive/ubuntu/gitflow-avh)
+**NOTE:** There is a PPA with a more recent version of git-flow version (the version 1.9.1) that you can use to install it on Ubuntu Precise (12.04), Trusty (14.04), Wily (15.10), Xenial (16.04). You may check the corresponding [Launchpad page](https://launchpad.net/~pdoes/+archive/ubuntu/gitflow-avh). However, instead of using that PPA and installing the software using `apt-get install`, you may use the manual installation to get the latest version.
 
-## Manual
+---
+## Manual Installation
 Under *nix, the easiest way to install git-flow is using Rick Osborne's
 excellent git-flow installer, which can be run using the following command:
 
