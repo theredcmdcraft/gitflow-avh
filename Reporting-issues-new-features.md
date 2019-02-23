@@ -12,7 +12,7 @@ these guidelines.
   version number of git-flow AVH Edition. You can see the version by
   typing `git flow version`
 
-* Try to as specific as possible in the description of the issue.
+* Try to be as specific as possible in the description of the issue.
 
 As soon as one of the core contributors get a change, they will evaluate the
 issue, add the appropriate labels, milestones and remove the `Bug: `, `RFC:`
