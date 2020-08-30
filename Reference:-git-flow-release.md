@@ -207,7 +207,7 @@ delete remote branch
 Rebase _\<name>_ on _\<base_branch>_
 
 #### Synopsis
-git flow feature rebase [-h] [-i] [-p] [\<name|nameprefix>]
+git flow release rebase [-h] [-i] [-p] [\<name|nameprefix>]
 
 #### Options
 -h,--[no]help  
