@@ -40,3 +40,12 @@
 * **Can I use it with Windows?**
 
   Yes, see [[Installing on Windows|Installing on Windows]]
+
+* **What is the intended use of the `support` subcommand?**
+
+  Long term support of old releases is a use case that not covered in the [original 
+  description of Git Flow](https://nvie.com/posts/a-successful-git-branching-model/). You might for instance have customers running old releases 
+  that still require bugfixes and maintenance, even though newer versions have long 
+  since replaced them. The [`git flow support`](https://github.com/petervanderdoes/gitflow-avh/wiki/Reference:-git-flow-support)
+  command creates branches that are _not supposed to be merged back into master_. 
+  More info: [SO](https://stackoverflow.com/a/16866118/200987)
