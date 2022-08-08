@@ -1,6 +1,6 @@
 # Installing on Windows
 
-For Windows users, [Git for Windows](https://www.ps3cfw.com/cool.php?item=80313060) is the recommended method.
+For Windows users, [Git for Windows](#git-for-windows) is the recommended method.
 
 ## Git for Windows
 Follow the instructions on the [Git for Windows homepage](https://git-for-windows.github.io) to install Git for Windows.  As of Git for Windows 2.6.4, GitFlow (AVH edition) is included, so you're all done.
@@ -15,7 +15,7 @@ The extension is available on the Microsoft Visual Studio Gallery website, the 2
 For more information about the extension read up on [Jakob's website](http://blog.ehn.nu/2015/02/introducing-gitflow-for-visual-studio/) and you can find the source on [Github](https://github.com/jakobehn/GitFlow.VS)  
 
 ## Cygwin
-For Windows users who wish to use the automated install, it is suggested that you install [Cygwin](https://www.ps3cfw.com/cool.php?item=94861608)
+For Windows users who wish to use the automated install, it is suggested that you install [Cygwin](http://www.cygwin.com/)
 first to install tools like `git`, `util-linux` and `wget` (with those three being packages that can be selected
 during installation).
 You can either install a stable version or the developer version, simply run 
