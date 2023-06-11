@@ -33,8 +33,8 @@ If you want to contribute to git-flow AVH edition there are some easy ways to
 help out.
 
 The most important and easiest way to contribute is by using the 
-software and [reporting](https://github.com/petervanderdoes/gitflow-avh/issues) any issues you encounter or if you would like to see a 
-new feature suggest it here at [github](https://github.com/petervanderdoes/gitflow-avh/issues).
+software and [reporting](https://github.com/CJ-Systems/gitflow-cjs/issues) any issues you encounter or if you would like to see a 
+new feature suggest it here at [github](https://github.com/CJ-Systems/gitflow-cjs/issues).
 
 You can also help us out by coding bugfixes and/or new features.
 
@@ -44,5 +44,5 @@ some existing code, it's best to discuss this before coding.
 ### Guidelines
 We have set up some simple guidelines and policies to keep things simple and 
 streamlined.
-* [Reporting issues/new features](https://github.com/petervanderdoes/gitflow-avh/wiki/Reporting-issues-new-features)
-* [Coding guidelines](https://github.com/petervanderdoes/gitflow-avh/wiki/Coding-guidelines)
+* [Reporting issues/new features](https://github.com/CJ-Systems/gitflow-cjs/wiki/Reporting-issues-new-features)
+* [Coding guidelines](https://github.com/CJ-Systems/gitflow-cjs/wiki/Coding-guidelines)
